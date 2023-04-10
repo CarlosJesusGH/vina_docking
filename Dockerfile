@@ -13,21 +13,26 @@ ENV INIT_DIR=${REPODIR}/init_dir
 # -----------------------------------------------------------------------
 # UPDATE SYSTEM AND CLONE GIT REPOSITORY
 
-RUN apt -y update && apt -y upgrade
-RUN apt install -y git
+USER root
+
+# RUN apt -y update && apt -y upgrade
+RUN apt install -yq git
 WORKDIR ${HOME_DIR}
 RUN git clone https://github.com/CarlosJesusGH/vina_docking.git
 RUN ls ${REPO_DIR}
 
 # -----------------------------------------------------------------------
-# SETUP THE SYSTEM
+# INSTALL OTHER USEFUL TOOLS
 
 RUN apt install -y wget nano tree htop ncdu curl
+RUN pip install vina
 
 WORKDIR ${SETUP_DIR}
 
+RUN wget -O bsc_autodock_+_cli_+_python.ipynb 'https://docs.google.com/uc?export=download&id=1E19Clw-jJ3XtfLns9RINywS7qtZptWRF'
 
-RUN echo "-----------------------------------------------------------------------"
+
+# -----------------------------------------------------------------------
 
 # Initialize conda in bash config fiiles:
 RUN conda init
@@ -35,6 +40,9 @@ RUN conda init bash
 
 RUN conda --version
 RUN conda env list
+
+
+RUN STOP HERE
 
 RUN echo "-----------------------------------------------------------------------"
 
