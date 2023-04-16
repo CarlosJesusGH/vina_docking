@@ -5,164 +5,105 @@ MAINTAINER Carlos Garcia-Hernandez carlos.garcia2@bsc.es
 # VARIABLE DECLARATION
 
 ENV HOME_DIR=/home
-ENV REPO_DIR=${HOMEDIR}/vina_docking
-ENV SETUP_DIR=${REPODIR}/setup_dir
-ENV SERVER_DIR=${REPODIR}/tools
-ENV INIT_DIR=${REPODIR}/init_dir
+ENV JOVYAN_DIR=${HOME_DIR}/jovyan
+ENV REPO_DIR=${HOME_DIR}/vina_docking
+ENV SETUP_DIR=${REPO_DIR}/setup_dir
 
 # -----------------------------------------------------------------------
 # UPDATE SYSTEM AND CLONE GIT REPOSITORY
 
 USER root
 
-# RUN apt -y update && apt -y upgrade
+RUN apt -yq update && apt -yq upgrade
 RUN apt install -yq git
 WORKDIR ${HOME_DIR}
-RUN git clone https://github.com/CarlosJesusGH/vina_docking.git
-RUN ls ${REPO_DIR}
+# TODO: change ADD for CLONE in the end
+ADD . /home/vina_docking
+# RUN git clone https://github.com/CarlosJesusGH/vina_docking.git
+RUN ls /home/vina_docking
+
 
 # -----------------------------------------------------------------------
 # INSTALL OTHER USEFUL TOOLS
 
-RUN apt install -y wget nano tree htop ncdu curl
-RUN pip install vina
+RUN apt install -yq wget nano tree htop ncdu curl
+RUN wget -O ${JOVYAN_DIR}/bsc_autodock_+_cli_+_python.ipynb 'https://docs.google.com/uc?export=download&id=1E19Clw-jJ3XtfLns9RINywS7qtZptWRF'
+RUN \
+    mv /usr/local/bin/start-notebook.sh /usr/local/bin/start-notebook_bkp.sh && \
+    cp ${SETUP_DIR}/start-notebook.sh /usr/local/bin && \
+    chmod 777 /usr/local/bin/start-notebook.sh
+
+# -----------------------------------------------------------------------
+# INSTALL ADFRsuite
 
 WORKDIR ${SETUP_DIR}
 
-RUN wget -O bsc_autodock_+_cli_+_python.ipynb 'https://docs.google.com/uc?export=download&id=1E19Clw-jJ3XtfLns9RINywS7qtZptWRF'
+RUN \
+    wget https://ccsb.scripps.edu/adfr/download/1038/ -O ADFRsuite_x86_64Linux_1.0.tar.gz && \
+    tar zxf ADFRsuite_x86_64Linux_1.0.tar.gz
 
+RUN \
+    replace_string="ans = ''\n    try:\n      ans = raw_input(text)\n    except EOFError as e:\n      print(e)" && \
+    sed -i "s|ans = raw_input(text)|$replace_string|g" ./ADFRsuite_x86_64Linux_1.0/Tools/install.py
+
+RUN \
+    mkdir /ADFRsuite && \
+    cd ADFRsuite_x86_64Linux_1.0/ && \
+    ./install.sh -d /ADFRsuite -c 0
+
+RUN \
+    mv /ADFRsuite/bin/prepare_ligand /ADFRsuite/bin/prepare_ligand_bkp && \
+    cp ${SETUP_DIR}/prepare_ligand /ADFRsuite/bin/ && \
+    chmod 777 /ADFRsuite/bin/prepare_ligand
+
+RUN echo "export PATH=/ADFRsuite/bin:\$PATH" >> ~/.bashrc
+RUN echo "alias python=python3" >> ~/.bashrc
+RUN echo "alias ipython=ipython3" >> ~/.bashrc
 
 # -----------------------------------------------------------------------
+# SHOW CONDA INFO
 
-# Initialize conda in bash config fiiles:
-RUN conda init
-RUN conda init bash
+RUN conda --version && conda env list
+# RUN source /opt/conda/etc/profile.d/conda.sh && conda activate base && conda env list
 
-RUN conda --version
+# -----------------------------------------------------------------------
+# INSTALL VINA ON BASE CONDA ENVIRONMENT
+
+SHELL ["conda", "run", "-n", "base", "/bin/bash", "-c"]
+RUN pip install vina
+RUN pip install pdb-tools
 RUN conda env list
+RUN conda list
 
+# -----------------------------------------------------------------------
+# SETUP MEEKO CONDA ENVIRONMENT (try doing it all on the same 'base' environment)
 
-RUN STOP HERE
+# RUN conda create -y --name env_meeko python=3.9
+# SHELL ["conda", "run", "-n", "env_meeko", "/bin/bash", "-c"]
+RUN conda install -c conda-forge numpy openbabel scipy rdkit -y
+RUN pip install meeko
+RUN conda list
 
-RUN echo "-----------------------------------------------------------------------"
+# -----------------------------------------------------------------------
+# 
+ 
+# -----------------------------------------------------------------------
+# -----------------------------------------------------------------------
+# STARTUP CONFIG - from: https://hub.docker.com/r/jupyter/base-notebook/dockerfile
 
-# Create GC3Env conda environment and install requirements
-RUN conda create -y -n GC3Env python=2.7
+EXPOSE 8888
 
-# Make RUN commands use the new environment:    [1]
-# SHELL ["conda", "run", "-n", "base", "/bin/bash", "-c"]
+# Configure container startup
+ENTRYPOINT ["tini", "-g", "--"]
+CMD ["start-notebook.sh", "--NotebookApp.token=''", "--NotebookApp.password=''", "--NotebookApp.allow_origin='*'"]
 
-# Make RUN commands use the new environment:    [1]
-SHELL ["conda", "run", "-n", "GC3Env", "/bin/bash", "-c"]
-RUN echo $CONDA_DEFAULT_ENV
-RUN python --version
-RUN \
-    pip install -r requirements_GC3Env.txt && \
-    # pip install mysql-python
-    pip freeze
-
-RUN echo "-----------------------------------------------------------------------"
-
-RUN \
-    pip install MySQL-python==1.2.5 && \
-    pip install scikit-image==0.11.3 && \
-    pip freeze
-
-RUN echo "-----------------------------------------------------------------------"
-
-# to start the service, maybe we could also use something like this: [3]
-# SHELL ["/sbin/init", "-d"]
-# I didn't try it but it might work
-
-# The default shell on Linux is ["/bin/sh", "-c"] [2]
-SHELL ["/bin/sh", "-c"]
-
-RUN apt install -y mysql-server
-RUN apt install -y apache2 apache2-utils
-
-RUN ls /var/lib/mysql/
-RUN ls /etc/mysql/
-
-RUN service mysql start
-RUN service apache2 start
-
-RUN \
-    service mysql restart && \
-    mysql --execute="CREATE DATABASE graphcrunch3; CREATE DATABASE gc3;" && \
-    mysql --execute="SHOW DATABASES;"
-
-RUN echo "-----------------------------------------------------------------------"
-
-# RUN service mysql restart && mysql --execute="SHOW DATABASES;"
-
-# RUN tar -xzf WebServer_bkp_*.tar.gz -C ${SERVERDIR}
-RUN pwd && ls
-WORKDIR ${SERVERDIR}
-
-SHELL ["conda", "run", "-n", "GC3Env", "/bin/bash", "-c"]
-RUN \
-    service mysql restart && \
-    ./manage.py makemigrations --setting=WebServer.settings_prod && \
-    ./manage.py migrate --setting=WebServer.settings_prod --noinput && \
-    ./manage.py syncdb --setting=WebServer.settings_prod --noinput && \
-    python manage.py migrate
-
-RUN echo "-----------------------------------------------------------------------"
-# <!-- create environment with python 3.7 and install all the necessary packages -->
-
-WORKDIR ${SETUPDIR}
-
-SHELL ["/bin/sh", "-c"]
-# RUN conda deactivate
-RUN conda update conda -y
-RUN conda config --append channels conda-forge
-RUN conda config --append channels bioconda
-#conda create --name env_37 --file /home/Downloads/GC3-WWW/drive_files/requirements_env37.txt
-RUN conda create --name env_37 python=3.7
-# RUN conda activate env_37
-# SHELL ["conda", "run", "-n", "env_37", "/bin/bash", "-c"]
-# RUN pwd && ls
-RUN conda install --name env_37 --yes --file requirements_env37v2.txt
-#conda install -c intel -y mkl-fft==1.3.0 mkl-random==1.2.2
-# RUN conda install --name env_37 --yes -c intel -y mkl-fft mkl-random
-RUN conda install -y --name env_37 -c conda-forge mkl_fft mkl_random
-RUN conda install --name env_37 --yes -c anaconda setuptools ipython_genutils
-RUN conda install --name env_37 --yes pandas==1.3.4
-
-RUN echo "-----------------------------------------------------------------------"
-# <!-- create environment with python 2.7 and install all the necessary packages -->
-
-# conda deactivate
-#conda create --name env_27 python=2.7 numpy networkx matplotlib ipykernel scipy scikit-learn -y
-RUN conda create --name env_27 python=2.7 numpy networkx==1.11 matplotlib ipykernel scipy scikit-learn -y
-RUN conda install -n env_27 -y -c bioconda gnuplot
-# cp /home/Downloads/GC3-WWW/drive_files/icell_input_files/gnuplot-py-1.8.tar.gz .
-RUN tar -xf gnuplot-py-1.8.tar.gz
-# RUN rm gnuplot-py-1.8.tar.gz
-RUN conda install -n env_27 decorator=4.4.0 -y
-# conda deactivate
-SHELL ["conda", "run", "-n", "env_27", "/bin/bash", "-c"]
-# source activate env_27 && 
-RUN python --version && cd gnuplot-py-1.8 && python setup.py install
-# source activate env_27 && 
-# RUN python --version
-SHELL ["conda", "run", "-n", "env_27", "python", "-c"]
-RUN import networkx; import Gnuplot; print('hello gnuplot world');
-# cd ..
-SHELL ["/bin/sh", "-c"]
-RUN pwd && ls
-RUN rm -r ${SETUPDIR}
-
-RUN echo "-----------------------------------------------------------------------"
-
-WORKDIR ${INITDIR}
-
-EXPOSE 8000
-
-RUN cp ${STARTDIR}/init_script.sh .
-RUN chmod 744 init_script.sh
-
-RUN rm -r ${REPODIR}
-
-
-ENTRYPOINT ["/home/init_script.sh"]
+# SET EVERYTHING AS DEFAULT IMAGE
+# WORKDIR ${JOVYAN_DIR}
+WORKDIR $HOME
+# Fix DL4006
+# SHELL ["/bin/bash", "-o", "pipefail", "-c"]
+# Fix permissions on /etc/jupyter as root
+# USER root
+# RUN fix-permissions /etc/jupyter/
+# Switch back to jovyan to avoid accidental container runs as root
+USER $NB_UID
