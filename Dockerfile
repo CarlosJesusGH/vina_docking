@@ -27,11 +27,14 @@ RUN ls /home/vina_docking
 # INSTALL OTHER USEFUL TOOLS
 
 RUN apt install -yq wget nano tree htop ncdu curl
-RUN wget -O ${JOVYAN_DIR}/bsc_autodock_+_cli_+_python.ipynb 'https://docs.google.com/uc?export=download&id=1E19Clw-jJ3XtfLns9RINywS7qtZptWRF'
+# RUN wget -O ${JOVYAN_DIR}/bsc_autodock_+_cli_+_python.ipynb 'https://docs.google.com/uc?export=download&id=1E19Clw-jJ3XtfLns9RINywS7qtZptWRF'
 RUN \
     mv /usr/local/bin/start-notebook.sh /usr/local/bin/start-notebook_bkp.sh && \
     cp ${SETUP_DIR}/start-notebook.sh /usr/local/bin && \
     chmod 777 /usr/local/bin/start-notebook.sh
+
+# necessary for schrodinger pymol-bundle
+RUN apt install -yq libgl1
 
 # -----------------------------------------------------------------------
 # INSTALL ADFRsuite
@@ -73,7 +76,7 @@ SHELL ["conda", "run", "-n", "base", "/bin/bash", "-c"]
 RUN pip install vina
 RUN pip install pdb-tools
 RUN conda env list
-RUN conda list
+# RUN conda list
 
 # -----------------------------------------------------------------------
 # SETUP MEEKO CONDA ENVIRONMENT (try doing it all on the same 'base' environment)
@@ -82,10 +85,13 @@ RUN conda list
 # SHELL ["conda", "run", "-n", "env_meeko", "/bin/bash", "-c"]
 RUN conda install -c conda-forge numpy openbabel scipy rdkit -y
 RUN pip install meeko
-RUN conda list
+# RUN conda list
 
 # -----------------------------------------------------------------------
-# 
+# TOOLS TO VISUALIZE MOLECULES
+RUN conda install -y -c conda-forge -c schrodinger pymol-bundle
+RUN conda install -y -c conda-forge py3dmol mdanalysis fpocket
+# prolif
  
 # -----------------------------------------------------------------------
 # -----------------------------------------------------------------------
@@ -107,3 +113,6 @@ WORKDIR $HOME
 # RUN fix-permissions /etc/jupyter/
 # Switch back to jovyan to avoid accidental container runs as root
 USER $NB_UID
+
+# after any change do:
+# dockerbuild && dockerpush
