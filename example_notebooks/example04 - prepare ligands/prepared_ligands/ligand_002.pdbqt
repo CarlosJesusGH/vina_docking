@@ -1,0 +1,11 @@
+REMARK SMILES CN=C=O
+REMARK SMILES IDX 1 1 2 2 3 3 4 4
+REMARK H PARENT
+REMARK Flexibility Score: inf
+ROOT
+ATOM      1  C   UNL     1      -0.867  -0.015   0.022  1.00  0.00     0.187 C 
+ATOM      2  N   UNL     1       0.398  -0.585   0.347  1.00  0.00    -0.209 NA
+ATOM      3  C   UNL     1       1.463  -0.050  -0.130  1.00  0.00     0.234 C 
+ATOM      4  O   UNL     1       2.648   0.257  -0.052  1.00  0.00    -0.211 OA
+ENDROOT
+TORSDOF 0
