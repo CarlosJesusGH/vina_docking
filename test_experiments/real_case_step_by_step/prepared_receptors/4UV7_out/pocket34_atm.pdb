@@ -1,0 +1,43 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    34:
+HEADER 0  - Pocket Score                      : -0.1390
+HEADER 1  - Drug Score                        : 0.0072
+HEADER 2  - Number of alpha spheres           :    22
+HEADER 3  - Mean alpha-sphere radius          : 4.1230
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.6471
+HEADER 5  - Mean B-factor of pocket residues  : 0.8213
+HEADER 6  - Hydrophobicity Score              : 23.0000
+HEADER 7  - Polarity Score                    :     5
+HEADER 8  - Amino Acid based volume Score     : 4.9000
+HEADER 9  - Pocket volume (Monte Carlo)       : 248.3066
+HEADER 10  -Pocket volume (convex hull)       : 6.8595
+HEADER 11 - Charge Score                      :     3
+HEADER 12 - Local hydrophobic density Score   : 13.0000
+HEADER 13 - Number of apolar alpha sphere     :    14
+HEADER 14 - Proportion of apolar alpha sphere : 0.6364
+ATOM   2355  CE1 TYR A 261     -11.372  -6.981  -9.585  0.00  0.00           A 0
+ATOM   2358   OH TYR A 261      -9.822  -5.806  -8.209  0.23  9.64           O 0
+ATOM   2437   NZ LYS A 270     -10.610  -3.470 -12.823  0.54  8.75           N 0
+ATOM   2435   CD LYS A 270     -13.022  -3.385 -13.248  0.00  0.00           C 0
+ATOM   2357   CZ TYR A 261     -10.832  -6.734  -8.336  0.00  0.00           A 0
+ATOM   2441    N CYS A 271     -16.552  -5.322 -10.776  0.75  3.28           N 0
+ATOM   2447   SG CYS A 271     -16.466  -6.429  -7.696  0.00  0.00           S 0
+ATOM   2512  CG2 VAL A 277     -13.840  -5.505  -4.868  0.00  0.00           C 0
+ATOM   2704  CG2 VAL A 299      -9.690  -2.297  -6.852  0.00  0.00           C 0
+ATOM   2705    N ARG A 300     -12.520  -0.579  -3.688  0.00  0.00           N 0
+ATOM   2696    O GLY A 298     -10.366   1.187  -7.049  0.00  0.00           O 0
+ATOM   2699   CA VAL A 299     -10.537  -0.746  -5.082  0.00  0.00           C 0
+ATOM   2446   CB CYS A 271     -17.422  -5.120  -8.492  0.00  0.00           C 0
+ATOM   2487    O TYR A 275     -18.052  -1.972  -4.772  0.00  0.00           O 0
+ATOM   2451    O PRO A 272     -20.032  -2.649  -8.683  0.39  1.07           O 0
+ATOM   2445    O CYS A 271     -18.478  -3.477 -11.079  0.00  0.00           O 0
+ATOM   2461   CG ARG A 273     -20.018   1.305  -9.669  0.00  0.00           C 0
+ATOM   2709    O ARG A 300     -13.939  -2.819  -2.334  0.00  0.00           O 0
+ATOM   2703  CG1 VAL A 299     -10.948  -3.249  -4.928  0.00  0.00           C 0
+ATOM   2710   CB ARG A 300     -14.717  -0.121  -2.761  0.00  0.00           C 0
+ATOM   2711   CG ARG A 300     -14.827   1.276  -3.319  0.00  0.00           C 0
+TER
+END

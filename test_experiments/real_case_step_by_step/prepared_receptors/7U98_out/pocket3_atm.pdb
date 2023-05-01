@@ -1,0 +1,41 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket     3:
+HEADER 0  - Pocket Score                      : 0.0811
+HEADER 1  - Drug Score                        : 0.0006
+HEADER 2  - Number of alpha spheres           :    21
+HEADER 3  - Mean alpha-sphere radius          : 3.7724
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.6780
+HEADER 5  - Mean B-factor of pocket residues  : 0.5100
+HEADER 6  - Hydrophobicity Score              : 27.7143
+HEADER 7  - Polarity Score                    :     4
+HEADER 8  - Amino Acid based volume Score     : 5.5714
+HEADER 9  - Pocket volume (Monte Carlo)       : 277.8575
+HEADER 10  -Pocket volume (convex hull)       : 20.9650
+HEADER 11 - Charge Score                      :     3
+HEADER 12 - Local hydrophobic density Score   : 4.0000
+HEADER 13 - Number of apolar alpha sphere     :     5
+HEADER 14 - Proportion of apolar alpha sphere : 0.2381
+ATOM   2071   NE ARG A 932       4.184  16.109  20.748  0.00  0.00           N 0
+ATOM   2255    O TRP A 951       6.432  15.106  22.119  0.59  2.14           O 0
+ATOM   2077  NH2 ARG A 932       5.148  14.268  19.791  0.58  4.37           N 0
+ATOM   2228  NH2 ARG A 948       5.764  20.780  18.263  0.45  2.19           N 0
+ATOM   2222   NE ARG A 948       5.686  21.072  20.533  0.72  1.09           N 0
+ATOM   2073   CZ ARG A 932       4.180  15.178  19.807  0.00  0.00           C 0
+ATOM   2052    O GLY A 930       3.460  17.748  16.117  0.48  5.36           O 0
+ATOM   2069   CG ARG A 932       3.559  18.406  20.083  0.00  0.00           C 0
+ATOM   2218    O ARG A 948       8.046  18.595  23.517  0.62  4.29           O 0
+ATOM   2273   CG MET A 952      10.967  16.051  22.571  0.00  0.00           C 0
+ATOM   2217    C ARG A 948       8.238  19.687  24.063  0.00  0.00           C 0
+ATOM   2231    N LYS A 949       9.327  19.927  24.792  0.00  0.00           N 0
+ATOM   2237   CG LYS A 949      12.469  20.118  24.657  0.00  0.00           C 0
+ATOM   2233   CA LYS A 949      10.285  18.853  25.021  0.00  0.00           C 0
+ATOM   2224   CZ ARG A 948       5.366  21.488  19.315  0.00  0.00           C 0
+ATOM   2195   CE MET A 945       9.295  25.403  20.954  0.00  0.00           C 0
+ATOM   2225  NH1 ARG A 948       4.669  22.596  19.124  0.00  0.00           N 0
+ATOM   2194   SD MET A 945      10.890  24.916  21.615  0.00  0.00           S 0
+ATOM   2219   CB ARG A 948       7.611  21.724  22.736  0.00  0.00           C 0
+TER
+END

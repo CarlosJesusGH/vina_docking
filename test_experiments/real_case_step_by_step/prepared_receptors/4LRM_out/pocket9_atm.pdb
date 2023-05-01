@@ -1,0 +1,36 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket     9:
+HEADER 0  - Pocket Score                      : -0.0274
+HEADER 1  - Drug Score                        : 0.0015
+HEADER 2  - Number of alpha spheres           :    17
+HEADER 3  - Mean alpha-sphere radius          : 3.6833
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.4813
+HEADER 5  - Mean B-factor of pocket residues  : 0.0000
+HEADER 6  - Hydrophobicity Score              : 65.8571
+HEADER 7  - Polarity Score                    :     1
+HEADER 8  - Amino Acid based volume Score     : 4.4286
+HEADER 9  - Pocket volume (Monte Carlo)       : 62.4644
+HEADER 10  -Pocket volume (convex hull)       : 0.1269
+HEADER 11 - Charge Score                      :     0
+HEADER 12 - Local hydrophobic density Score   : 16.0000
+HEADER 13 - Number of apolar alpha sphere     :    17
+HEADER 14 - Proportion of apolar alpha sphere : 1.0000
+ATOM   1958  CE2 TYR A 903      37.647 343.020  29.674  0.00  0.00           A 0
+ATOM   1991  CG2 VAL A 907      40.875 342.551  28.342  0.00  0.00           C 0
+ATOM   2606  CE1 PHE A 971      38.409 338.881  31.176  0.00  0.00           A 0
+ATOM   2379  CG2 ILE A 949      35.831 337.481  28.403  0.00  0.00           C 0
+ATOM   2376    O ILE A 949      35.311 338.219  25.388  0.00  0.00           O 0
+ATOM   2383   CA MET A 950      37.691 338.242  23.965  0.00  0.00           C 0
+ATOM   2417   SG CYS A 953      34.486 341.555  25.756  0.00  0.00           S 0
+ATOM   2387   CG MET A 950      40.161 338.795  24.371  0.00  0.00           C 0
+ATOM   1964   CA GLY A 904      38.144 343.295  24.353  0.00  0.00           C 0
+ATOM   2608   CZ PHE A 971      39.564 338.271  30.722  0.00  0.00           A 0
+ATOM   1990  CG1 VAL A 907      42.263 340.526  27.882  0.00  0.00           C 0
+ATOM   1989   CB VAL A 907      41.713 341.823  27.305  0.00  0.00           C 0
+ATOM   1956  CD2 TYR A 903      37.234 343.790  28.602  0.00  0.00           A 0
+ATOM   2381    N MET A 950      37.245 337.190  24.874  0.79  1.09           N 0
+TER
+END

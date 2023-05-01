@@ -1,0 +1,35 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket     7:
+HEADER 0  - Pocket Score                      : 0.1378
+HEADER 1  - Drug Score                        : 0.0001
+HEADER 2  - Number of alpha spheres           :    16
+HEADER 3  - Mean alpha-sphere radius          : 4.0074
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.5641
+HEADER 5  - Mean B-factor of pocket residues  : 0.1301
+HEADER 6  - Hydrophobicity Score              : -6.0000
+HEADER 7  - Polarity Score                    :     4
+HEADER 8  - Amino Acid based volume Score     : 2.6000
+HEADER 9  - Pocket volume (Monte Carlo)       : 206.9886
+HEADER 10  -Pocket volume (convex hull)       : 3.2786
+HEADER 11 - Charge Score                      :     0
+HEADER 12 - Local hydrophobic density Score   : 1.0000
+HEADER 13 - Number of apolar alpha sphere     :     2
+HEADER 14 - Proportion of apolar alpha sphere : 0.1250
+ATOM   1505   CG GLN A 160      21.646  41.888  45.537  0.00  0.00           C 0
+ATOM   1506   CD GLN A 160      22.126  43.091  44.750  0.00  0.00           C 0
+ATOM   1508  NE2 GLN A 160      21.498  43.333  43.596  0.00  0.00           N 0
+ATOM   1479    O GLY A 157      17.182  43.338  50.127  0.69  5.36           O 0
+ATOM   1491    N SER A 159      20.103  40.715  50.318  0.00  0.00           N 0
+ATOM   1495    O SER A 159      19.975  39.926  47.750  0.76  4.29           O 0
+ATOM   1507  OE1 GLN A 160      23.067  43.786  45.161  0.64  8.57           O 0
+ATOM   1483    C ASN A 158      20.371  41.617  51.248  0.00  0.00           C 0
+ATOM   1482   CA ASN A 158      19.202  42.503  51.733  0.00  0.00           C 0
+ATOM   1695  OG1 THR A 180      25.036  44.269  50.628  0.42  7.50           O 0
+ATOM   1694   CB THR A 180      24.419  44.781  51.805  0.00  0.00           C 0
+ATOM   1484    O ASN A 158      21.510  41.757  51.694  0.00  0.00           O 0
+ATOM   1499    N GLN A 160      22.203  39.623  47.633  0.00  0.00           N 0
+TER
+END

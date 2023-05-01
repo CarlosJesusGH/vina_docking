@@ -1,0 +1,35 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket     2:
+HEADER 0  - Pocket Score                      : 0.0369
+HEADER 1  - Drug Score                        : 0.0004
+HEADER 2  - Number of alpha spheres           :    15
+HEADER 3  - Mean alpha-sphere radius          : 3.9743
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.5402
+HEADER 5  - Mean B-factor of pocket residues  : 0.2477
+HEADER 6  - Hydrophobicity Score              : -6.5000
+HEADER 7  - Polarity Score                    :     4
+HEADER 8  - Amino Acid based volume Score     : 4.0000
+HEADER 9  - Pocket volume (Monte Carlo)       : 240.8119
+HEADER 10  -Pocket volume (convex hull)       : 3.9215
+HEADER 11 - Charge Score                      :    -1
+HEADER 12 - Local hydrophobic density Score   : 6.0000
+HEADER 13 - Number of apolar alpha sphere     :     7
+HEADER 14 - Proportion of apolar alpha sphere : 0.4667
+ATOM   2500  OE2 GLU A 963       0.875 -29.806 -13.980  0.67  5.36           O 0
+ATOM   2421    O SER A 957      -5.465 -29.754 -14.073  0.31  6.43           O 0
+ATOM   2443   CA PRO A 959      -1.362 -27.330 -14.657  0.00  0.00           C 0
+ATOM   2346   CD LYS A 949      -4.186 -29.409 -20.154  0.00  0.00           C 0
+ATOM   2536  OE1 GLU A 967       1.551 -28.751 -21.459  0.00  0.00           O 0
+ATOM   2496   CB GLU A 963       3.219 -28.979 -15.371  0.00  0.00           C 0
+ATOM   2498   CD GLU A 963       1.853 -30.500 -13.782  0.00  0.00           C 0
+ATOM   2442    N PRO A 959      -2.811 -27.086 -14.640  0.00  0.00           N 0
+ATOM   2446   CB PRO A 959      -0.867 -26.642 -15.917  0.00  0.00           C 0
+ATOM   2348   NZ LYS A 949      -2.125 -29.559 -21.669  0.00  0.00           N 0
+ATOM   2494    C GLU A 963       4.507 -27.360 -16.772  0.00  0.00           C 0
+ATOM   2509  CD2 LEU A 964       1.044 -24.236 -18.191  0.00  0.00           C 0
+ATOM   2447   CG PRO A 959      -2.100 -26.508 -16.773  0.00  0.00           C 0
+TER
+END

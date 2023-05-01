@@ -1,0 +1,36 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket     7:
+HEADER 0  - Pocket Score                      : -0.0376
+HEADER 1  - Drug Score                        : 0.0000
+HEADER 2  - Number of alpha spheres           :    18
+HEADER 3  - Mean alpha-sphere radius          : 3.8849
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.4831
+HEADER 5  - Mean B-factor of pocket residues  : 0.5980
+HEADER 6  - Hydrophobicity Score              : 17.5714
+HEADER 7  - Polarity Score                    :     5
+HEADER 8  - Amino Acid based volume Score     : 3.8571
+HEADER 9  - Pocket volume (Monte Carlo)       : 200.4072
+HEADER 10  -Pocket volume (convex hull)       : 5.9313
+HEADER 11 - Charge Score                      :     1
+HEADER 12 - Local hydrophobic density Score   : 0.0000
+HEADER 13 - Number of apolar alpha sphere     :     0
+HEADER 14 - Proportion of apolar alpha sphere : 0.0000
+ATOM   1386  CD1 LEU A 194      17.056  22.629  23.274  0.00  0.00           C 0
+ATOM   1906   CA SER A 255      15.687  23.096  18.028  0.00  0.00           C 0
+ATOM   1899    O LEU A 254      15.748  21.665  20.423  0.82  1.07           O 0
+ATOM   1908    O SER A 255      13.661  23.986  18.931  0.00  0.00           O 0
+ATOM   1909   CB SER A 255      16.125  23.627  16.662  0.00  0.00           C 0
+ATOM    998  NE2 GLN A 138      20.389  29.712  20.717  0.42  6.56           N 0
+ATOM   1010   NZ LYS A 139      20.341  24.627  17.548  0.00  0.00           N 0
+ATOM   1008   CD LYS A 139      20.760  22.370  18.493  0.00  0.00           C 0
+ATOM    996   CD GLN A 138      21.112  28.760  21.314  0.00  0.00           C 0
+ATOM    994   CB GLN A 138      22.472  26.757  20.620  0.00  0.00           C 0
+ATOM    997  OE1 GLN A 138      20.817  28.294  22.418  0.41  2.14           O 0
+ATOM   1363  OD1 ASN A 192      17.532  27.373  23.939  0.00  0.00           O 0
+ATOM   1944   OG SER A 258      13.713  23.305  24.052  0.46  6.43           O 0
+ATOM    993    O GLN A 138      22.152  24.465  23.039  0.62  1.07           O 0
+TER
+END

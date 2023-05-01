@@ -1,0 +1,45 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    19:
+HEADER 0  - Pocket Score                      : -0.1626
+HEADER 1  - Drug Score                        : 0.0001
+HEADER 2  - Number of alpha spheres           :    25
+HEADER 3  - Mean alpha-sphere radius          : 3.9739
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.7032
+HEADER 5  - Mean B-factor of pocket residues  : 0.5833
+HEADER 6  - Hydrophobicity Score              : -2.8571
+HEADER 7  - Polarity Score                    :     5
+HEADER 8  - Amino Acid based volume Score     : 4.4286
+HEADER 9  - Pocket volume (Monte Carlo)       : 357.3680
+HEADER 10  -Pocket volume (convex hull)       : 34.0547
+HEADER 11 - Charge Score                      :     2
+HEADER 12 - Local hydrophobic density Score   : 1.0000
+HEADER 13 - Number of apolar alpha sphere     :     2
+HEADER 14 - Proportion of apolar alpha sphere : 0.0800
+ATOM    978    O ARG A 803      44.440 -20.975 -17.482  0.43  4.29           O 0
+ATOM   1023   NZ LYS A 806      47.856 -20.806 -21.862  0.00  0.00           N 0
+ATOM   1021   CD LYS A 806      47.572 -20.904 -19.405  0.00  0.00           C 0
+ATOM    979   CB ARG A 803      41.810 -21.847 -19.246  0.00  0.00           C 0
+ATOM   1975   OG SER A 912      45.704 -24.398 -26.717  0.00  0.00           O 0
+ATOM   1968    O GLY A 911      41.746 -23.608 -24.306  0.63  5.36           O 0
+ATOM   1971   CA SER A 912      43.307 -24.356 -26.420  0.00  0.00           C 0
+ATOM   1956    O PHE A 910      44.434 -24.441 -21.392  0.67  2.14           O 0
+ATOM    980   CG ARG A 803      41.459 -22.475 -20.574  0.00  0.00           C 0
+ATOM    982   NE ARG A 803      40.029 -22.259 -22.572  0.68  1.09           N 0
+ATOM    981   CD ARG A 803      40.243 -21.807 -21.200  0.00  0.00           C 0
+ATOM   1984   CD LYS A 913      39.548 -20.096 -28.703  0.00  0.00           C 0
+ATOM    985  NH1 ARG A 803      38.059 -21.100 -22.838  0.00  0.00           N 0
+ATOM   1986   NZ LYS A 913      38.021 -18.315 -29.513  0.65  6.56           N 0
+ATOM   1985   CE LYS A 913      38.209 -19.799 -29.344  0.00  0.00           C 0
+ATOM    988  NH2 ARG A 803      38.879 -22.374 -24.561  0.54  6.56           N 0
+ATOM   1969    N SER A 912      43.292 -25.030 -25.126  0.56  1.09           N 0
+ATOM   1967    C GLY A 911      42.449 -24.620 -24.176  0.00  0.00           C 0
+ATOM   1977    N LYS A 913      41.668 -23.711 -28.070  0.57  2.19           N 0
+ATOM   2019  OD2 ASP A 916      42.923 -19.886 -31.240  0.00  0.00           O 0
+ATOM   1974   CB SER A 912      44.483 -24.830 -27.279  0.00  0.00           C 0
+ATOM    984   CZ ARG A 803      38.988 -21.913 -23.322  0.00  0.00           C 0
+ATOM   1983   CG LYS A 913      39.678 -21.544 -28.236  0.00  0.00           C 0
+TER
+END

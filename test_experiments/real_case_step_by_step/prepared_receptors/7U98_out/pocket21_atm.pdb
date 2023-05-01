@@ -1,0 +1,34 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    21:
+HEADER 0  - Pocket Score                      : -0.1065
+HEADER 1  - Drug Score                        : 0.0005
+HEADER 2  - Number of alpha spheres           :    15
+HEADER 3  - Mean alpha-sphere radius          : 3.9447
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.5702
+HEADER 5  - Mean B-factor of pocket residues  : 0.7561
+HEADER 6  - Hydrophobicity Score              : 54.0000
+HEADER 7  - Polarity Score                    :     2
+HEADER 8  - Amino Acid based volume Score     : 4.6000
+HEADER 9  - Pocket volume (Monte Carlo)       : 149.8326
+HEADER 10  -Pocket volume (convex hull)       : 0.4299
+HEADER 11 - Charge Score                      :     0
+HEADER 12 - Local hydrophobic density Score   : 9.0000
+HEADER 13 - Number of apolar alpha sphere     :    10
+HEADER 14 - Proportion of apolar alpha sphere : 0.6667
+ATOM   1634  CD1 LEU A 887       2.165   4.357  19.526  0.00  0.00           C 0
+ATOM   1605   CB GLU A 884       5.455   4.931  24.969  0.00  0.00           C 0
+ATOM   1647  NE2 HIS A 888       4.197   0.779  20.897  0.00  0.00           N 0
+ATOM   2283  CG2 ILE A 953       8.023   9.072  19.379  0.00  0.00           C 0
+ATOM   1608  OE1 GLU A 884       6.248   7.564  25.181  0.82  1.07           O 0
+ATOM   1596   CB LEU A 883       2.990   8.644  22.002  0.00  0.00           C 0
+ATOM   2280    O ILE A 953       9.021   9.059  22.407  0.50  5.36           O 0
+ATOM   1645  CD2 HIS A 888       4.171   1.106  22.231  0.00  0.00           A 0
+ATOM   1599  CD2 LEU A 883       3.527   8.336  19.552  0.00  0.00           C 0
+ATOM   1602   CA GLU A 884       3.983   5.062  24.549  0.00  0.00           C 0
+ATOM   1600    N GLU A 884       3.656   6.448  24.231  0.00  0.00           N 0
+ATOM   1597   CG LEU A 883       2.622   7.917  20.701  0.00  0.00           C 0
+TER
+END

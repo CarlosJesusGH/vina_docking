@@ -1,0 +1,40 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket     7:
+HEADER 0  - Pocket Score                      : 0.1771
+HEADER 1  - Drug Score                        : 0.0009
+HEADER 2  - Number of alpha spheres           :    18
+HEADER 3  - Mean alpha-sphere radius          : 3.9469
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.6197
+HEADER 5  - Mean B-factor of pocket residues  : 0.2086
+HEADER 6  - Hydrophobicity Score              : -15.5714
+HEADER 7  - Polarity Score                    :     6
+HEADER 8  - Amino Acid based volume Score     : 4.1429
+HEADER 9  - Pocket volume (Monte Carlo)       : 247.9483
+HEADER 10  -Pocket volume (convex hull)       : 8.3538
+HEADER 11 - Charge Score                      :     1
+HEADER 12 - Local hydrophobic density Score   : 8.0000
+HEADER 13 - Number of apolar alpha sphere     :     9
+HEADER 14 - Proportion of apolar alpha sphere : 0.5000
+ATOM   1203   CG LYS A 823      -1.690  32.988  44.247  0.00  0.00           C 0
+ATOM   1204   CD LYS A 823      -0.809  31.926  44.795  0.00  0.00           C 0
+ATOM   1202   CB LYS A 823      -2.446  32.512  43.080  0.00  0.00           C 0
+ATOM    702  OD1 ASN A 771       0.207  33.273  38.192  0.54  7.50           O 0
+ATOM   1205   CE LYS A 823       0.172  32.511  45.749  0.00  0.00           C 0
+ATOM    711   CG PRO A 772       2.744  29.631  38.973  0.00  0.00           C 0
+ATOM   1206   NZ LYS A 823       1.133  31.494  46.157  0.00  0.00           N 0
+ATOM    722  CD2 HIS A 773      -0.808  29.064  41.398  0.00  0.00           A 0
+ATOM    712   CD PRO A 772       2.134  30.618  38.132  0.00  0.00           C 0
+ATOM    724  NE2 HIS A 773      -0.367  28.105  42.267  0.00  0.00           N 0
+ATOM   1237   CA TYR A 827      -2.960  37.079  37.668  0.00  0.00           C 0
+ATOM   1242  CD1 TYR A 827      -0.277  36.393  36.250  0.00  0.00           A 0
+ATOM   1276  OD2 ASP A 830      -0.796  40.516  39.122  0.00  0.00           O 0
+ATOM   1240   CB TYR A 827      -2.423  35.743  37.246  0.00  0.00           C 0
+ATOM   1231  OD1 ASN A 826      -2.682  39.070  42.413  0.48  9.64           O 0
+ATOM   1201    O LYS A 823      -3.402  34.313  40.530  0.74  2.14           O 0
+ATOM   1235    N TYR A 827      -3.811  36.882  38.803  0.00  0.00           N 0
+ATOM   1199   CA LYS A 823      -3.571  33.436  42.715  0.00  0.00           C 0
+TER
+END

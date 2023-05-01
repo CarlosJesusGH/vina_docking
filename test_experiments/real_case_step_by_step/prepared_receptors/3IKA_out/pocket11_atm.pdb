@@ -1,0 +1,37 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    11:
+HEADER 0  - Pocket Score                      : 0.0957
+HEADER 1  - Drug Score                        : 0.0010
+HEADER 2  - Number of alpha spheres           :    15
+HEADER 3  - Mean alpha-sphere radius          : 3.5296
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.4279
+HEADER 5  - Mean B-factor of pocket residues  : 0.4803
+HEADER 6  - Hydrophobicity Score              : 55.7143
+HEADER 7  - Polarity Score                    :     3
+HEADER 8  - Amino Acid based volume Score     : 4.8571
+HEADER 9  - Pocket volume (Monte Carlo)       : 96.4233
+HEADER 10  -Pocket volume (convex hull)       : 2.2549
+HEADER 11 - Charge Score                      :     1
+HEADER 12 - Local hydrophobic density Score   : 6.0000
+HEADER 13 - Number of apolar alpha sphere     :     7
+HEADER 14 - Proportion of apolar alpha sphere : 0.4667
+ATOM   1281    O ARG A 831      -4.932  41.988  31.140  0.61  3.21           O 0
+ATOM   1318  CD1 LEU A 833      -6.332  37.695  30.254  0.00  0.00           C 0
+ATOM   1288  NH1 ARG A 831      -0.351  40.050  28.473  0.39  7.66           N 0
+ATOM   1282   CB ARG A 831      -3.194  40.030  32.180  0.00  0.00           C 0
+ATOM   1589  CD2 LEU A 861      -5.949  41.823  26.646  0.00  0.00           C 0
+ATOM    643  CE2 TYR A 764      -4.046  38.870  23.420  0.00  0.00           A 0
+ATOM    645   OH TYR A 764      -2.236  40.339  23.423  0.24  3.21           O 0
+ATOM   1285   NE ARG A 831      -0.864  40.065  30.698  0.65  2.19           N 0
+ATOM   1317   CG LEU A 833      -6.919  39.015  30.476  0.00  0.00           C 0
+ATOM    676   OG SER A 768      -1.916  36.084  26.431  0.34  7.50           O 0
+ATOM    684  CG1 VAL A 769      -3.106  34.312  29.430  0.00  0.00           C 0
+ATOM    653  CG1 VAL A 765      -7.068  36.271  25.656  0.00  0.00           C 0
+ATOM    652   CB VAL A 765      -6.213  35.311  26.364  0.00  0.00           C 0
+ATOM   1319  CD2 LEU A 833      -7.598  39.498  29.248  0.00  0.00           C 0
+ATOM    649   CA VAL A 765      -4.968  35.126  25.616  0.00  0.00           C 0
+TER
+END

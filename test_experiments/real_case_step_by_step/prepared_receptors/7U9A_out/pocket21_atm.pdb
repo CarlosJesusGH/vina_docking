@@ -1,0 +1,37 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    21:
+HEADER 0  - Pocket Score                      : -0.1089
+HEADER 1  - Drug Score                        : 0.0003
+HEADER 2  - Number of alpha spheres           :    15
+HEADER 3  - Mean alpha-sphere radius          : 3.9642
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.4332
+HEADER 5  - Mean B-factor of pocket residues  : 0.8204
+HEADER 6  - Hydrophobicity Score              : 0.3750
+HEADER 7  - Polarity Score                    :     6
+HEADER 8  - Amino Acid based volume Score     : 3.8750
+HEADER 9  - Pocket volume (Monte Carlo)       : 254.4012
+HEADER 10  -Pocket volume (convex hull)       : 11.8615
+HEADER 11 - Charge Score                      :    -2
+HEADER 12 - Local hydrophobic density Score   : 4.0000
+HEADER 13 - Number of apolar alpha sphere     :     5
+HEADER 14 - Proportion of apolar alpha sphere : 0.3333
+ATOM   1605   CB LYS A 867      64.929 -19.805  43.376  0.00  0.00           C 0
+ATOM   1855  CG2 THR A 892      63.674 -20.133  37.900  0.00  0.00           C 0
+ATOM   2456  OD1 ASP A 956      67.664 -25.027  37.454  0.00  0.00           O 0
+ATOM   1622  OE2 GLU A 868      61.716 -23.998  42.234  0.00  0.00           O 0
+ATOM   1607   CD LYS A 867      67.166 -20.820  43.994  0.00  0.00           C 0
+ATOM   2448   CB ALA A 955      63.382 -25.677  34.886  0.00  0.00           C 0
+ATOM   1766  OE1 GLU A 884      59.342 -24.616  35.018  0.74  5.36           O 0
+ATOM   1764   CG GLU A 884      58.453 -26.795  35.548  0.00  0.00           C 0
+ATOM   2457  OD2 ASP A 956      67.645 -26.934  38.556  0.00  0.00           O 0
+ATOM   1874   CB GLN A 894      64.686 -22.002  34.340  0.00  0.00           C 0
+ATOM   1831  CG2 ILE A 890      58.161 -22.918  40.150  0.00  0.00           C 0
+ATOM   1763   CB GLU A 884      57.271 -26.300  36.356  0.00  0.00           C 0
+ATOM   1832  CD1 ILE A 890      57.056 -25.261  41.508  0.00  0.00           C 0
+ATOM   1853  OG1 THR A 892      61.586 -20.928  38.791  0.81  4.29           O 0
+ATOM   1604    O LYS A 867      62.907 -19.045  41.252  0.68  1.07           O 0
+TER
+END

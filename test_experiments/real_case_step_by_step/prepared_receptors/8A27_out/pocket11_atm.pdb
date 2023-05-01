@@ -1,0 +1,38 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    11:
+HEADER 0  - Pocket Score                      : -0.0877
+HEADER 1  - Drug Score                        : 0.0001
+HEADER 2  - Number of alpha spheres           :    16
+HEADER 3  - Mean alpha-sphere radius          : 3.9409
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.6032
+HEADER 5  - Mean B-factor of pocket residues  : 0.5467
+HEADER 6  - Hydrophobicity Score              : -6.6667
+HEADER 7  - Polarity Score                    :     5
+HEADER 8  - Amino Acid based volume Score     : 3.6667
+HEADER 9  - Pocket volume (Monte Carlo)       : 200.0688
+HEADER 10  -Pocket volume (convex hull)       : 2.6947
+HEADER 11 - Charge Score                      :    -1
+HEADER 12 - Local hydrophobic density Score   : 7.0000
+HEADER 13 - Number of apolar alpha sphere     :     8
+HEADER 14 - Proportion of apolar alpha sphere : 0.5000
+ATOM   1045    N GLY A 810      -9.205 -10.221 -16.714  0.00  0.00           N 0
+ATOM   1079  CE1 TYR A 813      -7.713  -7.932 -10.982  0.00  0.00           A 0
+ATOM   1080  CE2 TYR A 813      -6.781 -10.089 -11.481  0.00  0.00           A 0
+ATOM   1077  CD1 TYR A 813      -7.244  -7.476 -12.226  0.00  0.00           A 0
+ATOM   1076   CG TYR A 813      -6.517  -8.292 -13.057  0.00  0.00           A 0
+ATOM   1081   CZ TYR A 813      -7.424  -9.224 -10.606  0.00  0.00           A 0
+ATOM   2623  OD1 ASP A 984     -13.577  -7.807 -17.443  0.00  0.00           O 0
+ATOM   1063   CB GLN A 812      -9.800  -4.040 -14.599  0.00  0.00           C 0
+ATOM   2539  NE2 GLN A 976     -14.509  -4.553 -17.457  0.25  8.75           N 0
+ATOM   1066  OE1 GLN A 812     -10.910  -4.022 -11.971  0.00  0.00           O 0
+ATOM   1029    O ASN A 808      -8.625 -13.705 -14.146  0.00  0.00           O 0
+ATOM   1082   OH TYR A 813      -7.919  -9.703  -9.425  0.00  0.00           O 0
+ATOM   1078  CD2 TYR A 813      -6.276  -9.608 -12.670  0.00  0.00           A 0
+ATOM   1047   CA GLY A 810      -9.987  -9.243 -17.463  0.00  0.00           C 0
+ATOM   1058    N GLN A 812      -9.335  -4.925 -16.820  0.34  1.09           N 0
+ATOM   1070    N TYR A 813      -7.277  -5.852 -15.054  0.00  0.00           N 0
+TER
+END

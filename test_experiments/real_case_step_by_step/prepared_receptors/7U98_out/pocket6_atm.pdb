@@ -1,0 +1,39 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket     6:
+HEADER 0  - Pocket Score                      : 0.0235
+HEADER 1  - Drug Score                        : 0.0002
+HEADER 2  - Number of alpha spheres           :    15
+HEADER 3  - Mean alpha-sphere radius          : 4.0289
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.7405
+HEADER 5  - Mean B-factor of pocket residues  : 0.6228
+HEADER 6  - Hydrophobicity Score              : -24.1667
+HEADER 7  - Polarity Score                    :     5
+HEADER 8  - Amino Acid based volume Score     : 3.8333
+HEADER 9  - Pocket volume (Monte Carlo)       : 273.0554
+HEADER 10  -Pocket volume (convex hull)       : 6.3262
+HEADER 11 - Charge Score                      :    -3
+HEADER 12 - Local hydrophobic density Score   : 7.0000
+HEADER 13 - Number of apolar alpha sphere     :     8
+HEADER 14 - Proportion of apolar alpha sphere : 0.5333
+ATOM   2821   CA ASP A1006       7.883  21.346  57.686  0.00  0.00           C 0
+ATOM   2826  OD1 ASP A1006      10.492  21.748  58.403  0.00  0.00           O 0
+ATOM   2823    O ASP A1006       8.638  23.498  56.922  0.52  6.43           O 0
+ATOM   2803    O GLU A1004       4.105  22.391  60.282  0.00  0.00           O 0
+ATOM   2813    O GLU A1005       5.486  22.846  57.475  0.68  4.29           O 0
+ATOM   2756   CD ARG A 999       4.555  28.330  57.173  0.00  0.00           C 0
+ATOM   2760  NH1 ARG A 999       7.313  27.785  57.035  0.50  7.66           N 0
+ATOM   2805   CG GLU A1004       0.589  24.325  61.787  0.00  0.00           C 0
+ATOM   2804   CB GLU A1004       1.491  23.231  61.223  0.00  0.00           C 0
+ATOM   2808  OE2 GLU A1004       0.436  24.461  64.151  0.00  0.00           O 0
+ATOM   2794    O ASP A1003       1.791  25.333  57.715  0.00  0.00           O 0
+ATOM   2754   CB ARG A 999       2.329  28.746  58.186  0.00  0.00           C 0
+ATOM   2768   CA ALA A1000      -0.339  28.793  61.708  0.00  0.00           C 0
+ATOM   2752    C ARG A 999       0.259  28.113  59.451  0.00  0.00           C 0
+ATOM   2766    N ALA A1000       0.106  29.089  60.350  0.00  0.00           N 0
+ATOM   2753    O ARG A 999      -0.008  26.936  59.711  0.75  1.07           O 0
+ATOM   2801   CA GLU A1004       2.058  23.536  59.832  0.00  0.00           C 0
+TER
+END

@@ -1,0 +1,37 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    14:
+HEADER 0  - Pocket Score                      : -0.1919
+HEADER 1  - Drug Score                        : 0.0006
+HEADER 2  - Number of alpha spheres           :    16
+HEADER 3  - Mean alpha-sphere radius          : 4.0544
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.4614
+HEADER 5  - Mean B-factor of pocket residues  : 0.3784
+HEADER 6  - Hydrophobicity Score              : 25.1429
+HEADER 7  - Polarity Score                    :     2
+HEADER 8  - Amino Acid based volume Score     : 4.4286
+HEADER 9  - Pocket volume (Monte Carlo)       : 324.9123
+HEADER 10  -Pocket volume (convex hull)       : 20.0743
+HEADER 11 - Charge Score                      :     2
+HEADER 12 - Local hydrophobic density Score   : 10.0000
+HEADER 13 - Number of apolar alpha sphere     :    11
+HEADER 14 - Proportion of apolar alpha sphere : 0.6875
+ATOM    216  CD2 LEU A 718     -34.566  41.962   9.954  0.00  0.00           C 0
+ATOM    917   CA GLY A 796     -38.271  35.984  12.951  0.00  0.00           C 0
+ATOM    213   CB LEU A 718     -32.991  41.332  11.821  0.00  0.00           C 0
+ATOM    212    O LEU A 718     -33.864  42.325  14.714  0.46  6.43           O 0
+ATOM    215  CD1 LEU A 718     -33.127  39.899   9.753  0.00  0.00           C 0
+ATOM    899    O PRO A 794     -41.012  37.500   9.457  0.00  0.00           O 0
+ATOM    891    O MET A 793     -37.739  35.864   9.455  0.58  4.29           O 0
+ATOM    885  CD1 LEU A 792     -34.367  37.793   6.959  0.00  0.00           C 0
+ATOM    194   CD LYS A 716     -35.872  45.963   8.215  0.00  0.00           C 0
+ATOM    296   CD LYS A 728     -35.120  42.257   4.830  0.00  0.00           C 0
+ATOM    196   NZ LYS A 716     -38.160  45.690   9.176  0.00  0.00           N 0
+ATOM    298   NZ LYS A 728     -37.164  42.297   3.336  0.00  0.00           N 0
+ATOM    897   CA PRO A 794     -39.708  36.510   7.743  0.00  0.00           C 0
+ATOM    900   CB PRO A 794     -40.658  36.433   6.525  0.00  0.00           C 0
+ATOM    886  CD2 LEU A 792     -35.342  38.179   4.706  0.00  0.00           C 0
+TER
+END

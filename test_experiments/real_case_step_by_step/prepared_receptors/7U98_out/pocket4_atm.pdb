@@ -1,0 +1,48 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket     4:
+HEADER 0  - Pocket Score                      : 0.0751
+HEADER 1  - Drug Score                        : 0.0857
+HEADER 2  - Number of alpha spheres           :    30
+HEADER 3  - Mean alpha-sphere radius          : 3.9987
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.5425
+HEADER 5  - Mean B-factor of pocket residues  : 0.1763
+HEADER 6  - Hydrophobicity Score              : 69.0000
+HEADER 7  - Polarity Score                    :     2
+HEADER 8  - Amino Acid based volume Score     : 5.1250
+HEADER 9  - Pocket volume (Monte Carlo)       : 253.2238
+HEADER 10  -Pocket volume (convex hull)       : 13.4080
+HEADER 11 - Charge Score                      :     1
+HEADER 12 - Local hydrophobic density Score   : 29.0000
+HEADER 13 - Number of apolar alpha sphere     :    30
+HEADER 14 - Proportion of apolar alpha sphere : 1.0000
+ATOM    297   CB TRP A 731     -12.395  11.400  61.969  0.00  0.00           C 0
+ATOM    121   CB PHE A 712     -15.316   8.174  59.744  0.00  0.00           C 0
+ATOM     72  CD1 LEU A 707     -10.443   5.998  58.878  0.00  0.00           C 0
+ATOM    299  CD1 TRP A 731     -11.992   9.108  63.030  0.00  0.00           A 0
+ATOM    406  CG2 VAL A 742     -12.684  12.237  57.418  0.00  0.00           C 0
+ATOM     46   CD ARG A 705      -6.236   5.085  63.195  0.00  0.00           C 0
+ATOM    307  CH2 TRP A 731      -8.337  10.498  65.340  0.00  0.00           A 0
+ATOM    305  CZ2 TRP A 731      -9.089   9.373  65.140  0.00  0.00           A 0
+ATOM     50  NH1 ARG A 705      -6.652   6.279  65.726  0.65  6.56           N 0
+ATOM    790  CG1 ILE A 789     -11.210   8.094  55.863  0.00  0.00           C 0
+ATOM     73  CD2 LEU A 707     -10.101   5.650  61.339  0.00  0.00           C 0
+ATOM    298   CG TRP A 731     -11.684  10.422  62.841  0.00  0.00           A 0
+ATOM    303  CE2 TRP A 731     -10.181   9.475  64.281  0.00  0.00           A 0
+ATOM     45   CG ARG A 705      -6.478   4.574  61.798  0.00  0.00           C 0
+ATOM    695   CB LEU A 778      -4.525   9.648  56.753  0.00  0.00           C 0
+ATOM    697  CD1 LEU A 778      -4.564  12.131  57.056  0.00  0.00           C 0
+ATOM    304  CE3 TRP A 731      -9.730  11.812  63.856  0.00  0.00           A 0
+ATOM    306  CZ3 TRP A 731      -8.648  11.707  64.708  0.00  0.00           A 0
+ATOM     44   CB ARG A 705      -5.243   4.780  60.953  0.00  0.00           C 0
+ATOM    791  CG2 ILE A 789      -9.316   9.557  56.612  0.00  0.00           C 0
+ATOM    701   CA GLY A 779      -6.561   5.701  56.733  0.00  0.00           C 0
+ATOM    694    O LEU A 778      -4.130   6.512  57.667  0.54  4.29           O 0
+ATOM    300  CD2 TRP A 731     -10.518  10.679  63.631  0.00  0.00           A 0
+ATOM    405  CG1 VAL A 742     -10.623  12.969  58.661  0.00  0.00           C 0
+ATOM    693    C LEU A 778      -4.635   7.153  56.740  0.00  0.00           C 0
+ATOM    699    N GLY A 779      -5.792   6.802  56.188  0.00  0.00           N 0
+TER
+END

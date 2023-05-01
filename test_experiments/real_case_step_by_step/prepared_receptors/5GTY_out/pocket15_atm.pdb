@@ -1,0 +1,43 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    15:
+HEADER 0  - Pocket Score                      : -0.0935
+HEADER 1  - Drug Score                        : 0.0011
+HEADER 2  - Number of alpha spheres           :    28
+HEADER 3  - Mean alpha-sphere radius          : 3.9454
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.5564
+HEADER 5  - Mean B-factor of pocket residues  : 0.3023
+HEADER 6  - Hydrophobicity Score              : 30.0000
+HEADER 7  - Polarity Score                    :     3
+HEADER 8  - Amino Acid based volume Score     : 4.5000
+HEADER 9  - Pocket volume (Monte Carlo)       : 259.5155
+HEADER 10  -Pocket volume (convex hull)       : 8.9780
+HEADER 11 - Charge Score                      :     0
+HEADER 12 - Local hydrophobic density Score   : 10.0000
+HEADER 13 - Number of apolar alpha sphere     :    11
+HEADER 14 - Proportion of apolar alpha sphere : 0.3929
+ATOM   2130   CB PRO A 937     -55.960  12.145 -40.710  0.00  0.00           C 0
+ATOM   2584   CD GLN A 982     -63.031  12.038 -45.368  0.00  0.00           C 0
+ATOM   2585  OE1 GLN A 982     -62.380  11.044 -45.677  0.50  6.43           O 0
+ATOM   2586  NE2 GLN A 982     -63.766  12.099 -44.266  0.00  0.00           N 0
+ATOM   2129    O PRO A 937     -57.069   9.054 -41.075  0.42  7.50           O 0
+ATOM   2575  CG2 ILE A 981     -59.013  10.983 -49.577  0.00  0.00           C 0
+ATOM   2583   CG GLN A 982     -63.023  13.274 -46.241  0.00  0.00           C 0
+ATOM    968   CE LYS A 806     -56.764  16.821 -47.600  0.00  0.00           C 0
+ATOM    969   NZ LYS A 806     -57.896  17.758 -47.365  0.12  4.37           N 0
+ATOM    964    O LYS A 806     -56.702  15.998 -51.036  0.33  2.14           O 0
+ATOM    977    O ASP A 807     -59.692  16.278 -52.564  0.42  9.64           O 0
+ATOM   2140  CG2 ILE A 938     -55.709  10.991 -44.997  0.00  0.00           C 0
+ATOM   1890  CE2 PHE A 910     -54.419  13.065 -48.171  0.00  0.00           A 0
+ATOM   2582   CB GLN A 982     -63.445  13.000 -47.676  0.00  0.00           C 0
+ATOM   2581    O GLN A 982     -62.657  12.035 -50.433  0.72  3.21           O 0
+ATOM   2128    C PRO A 937     -56.160   9.774 -41.458  0.00  0.00           C 0
+ATOM   2564    O VAL A 980     -58.988   8.542 -45.600  0.70  4.29           O 0
+ATOM   2577    N GLN A 982     -61.877  11.119 -47.918  0.00  0.00           N 0
+ATOM   2133    N ILE A 938     -55.719   9.780 -42.705  0.00  0.00           N 0
+ATOM   2135   CA ILE A 938     -56.305   8.919 -43.723  0.00  0.00           C 0
+ATOM   2570   CA ILE A 981     -60.122   9.426 -47.968  0.00  0.00           C 0
+TER
+END

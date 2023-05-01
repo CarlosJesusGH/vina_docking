@@ -1,0 +1,39 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    15:
+HEADER 0  - Pocket Score                      : -0.0560
+HEADER 1  - Drug Score                        : 0.0003
+HEADER 2  - Number of alpha spheres           :    17
+HEADER 3  - Mean alpha-sphere radius          : 4.1942
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.5907
+HEADER 5  - Mean B-factor of pocket residues  : 0.6311
+HEADER 6  - Hydrophobicity Score              : 40.5714
+HEADER 7  - Polarity Score                    :     3
+HEADER 8  - Amino Acid based volume Score     : 4.8571
+HEADER 9  - Pocket volume (Monte Carlo)       : 316.5550
+HEADER 10  -Pocket volume (convex hull)       : 12.7361
+HEADER 11 - Charge Score                      :     0
+HEADER 12 - Local hydrophobic density Score   : 4.0000
+HEADER 13 - Number of apolar alpha sphere     :     5
+HEADER 14 - Proportion of apolar alpha sphere : 0.2941
+ATOM   2688  CG2 ILE A 981     -64.487 -16.101  -3.732  0.00  0.00           C 0
+ATOM   1010    O LYS A 806     -59.466 -13.004  -4.817  0.00  0.00           O 0
+ATOM   2694    O GLN A 982     -64.014 -15.798  -0.218  0.67  5.36           O 0
+ATOM   2696   CG GLN A 982     -62.577 -19.741  -0.013  0.00  0.00           C 0
+ATOM   1998  CE2 PHE A 910     -60.134 -16.982  -7.587  0.00  0.00           A 0
+ATOM   1999   CZ PHE A 910     -60.848 -15.790  -7.542  0.00  0.00           A 0
+ATOM   2248  CG2 ILE A 938     -62.593 -20.272  -6.634  0.00  0.00           C 0
+ATOM   2690    N GLN A 982     -64.493 -18.327  -1.342  0.61  1.09           N 0
+ATOM   1023    O ASP A 807     -60.844 -11.386  -1.795  0.52  4.29           O 0
+ATOM   1021   CA ASP A 807     -58.599 -11.827  -2.476  0.00  0.00           C 0
+ATOM   2740   CE MET A 987     -63.292 -12.604  -1.158  0.00  0.00           C 0
+ATOM   1026  OD1 ASP A 807     -56.391 -13.236  -1.687  0.00  0.00           O 0
+ATOM   2695   CB GLN A 982     -63.203 -18.561   0.704  0.00  0.00           C 0
+ATOM   2698  OE1 GLN A 982     -61.315 -20.107   1.980  0.00  0.00           O 0
+ATOM   1024   CB ASP A 807     -57.693 -11.287  -1.385  0.00  0.00           C 0
+ATOM   2683   CA ILE A 981     -65.475 -18.397  -3.548  0.00  0.00           C 0
+ATOM   1011   CB LYS A 806     -56.596 -13.553  -6.099  0.00  0.00           C 0
+TER
+END

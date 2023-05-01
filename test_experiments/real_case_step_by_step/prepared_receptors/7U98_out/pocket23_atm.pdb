@@ -1,0 +1,37 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    23:
+HEADER 0  - Pocket Score                      : -0.1153
+HEADER 1  - Drug Score                        : 0.0001
+HEADER 2  - Number of alpha spheres           :    17
+HEADER 3  - Mean alpha-sphere radius          : 3.9476
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.5612
+HEADER 5  - Mean B-factor of pocket residues  : 0.6672
+HEADER 6  - Hydrophobicity Score              : 2.6000
+HEADER 7  - Polarity Score                    :     4
+HEADER 8  - Amino Acid based volume Score     : 5.2000
+HEADER 9  - Pocket volume (Monte Carlo)       : 241.2751
+HEADER 10  -Pocket volume (convex hull)       : 6.5536
+HEADER 11 - Charge Score                      :     1
+HEADER 12 - Local hydrophobic density Score   : 0.0000
+HEADER 13 - Number of apolar alpha sphere     :     1
+HEADER 14 - Proportion of apolar alpha sphere : 0.0588
+ATOM     91    O GLU A 709     -18.424   4.217  60.687  0.00  0.00           O 0
+ATOM    135   CD LYS A 713     -21.922   8.311  60.593  0.00  0.00           C 0
+ATOM     95  OE1 GLU A 709     -20.343   0.470  57.353  0.00  0.00           O 0
+ATOM    136   CE LYS A 713     -22.470   7.709  61.880  0.00  0.00           C 0
+ATOM    772  NE2 GLN A 787     -17.179   3.300  54.070  0.42  4.37           N 0
+ATOM     92   CB GLU A 709     -18.556   1.159  59.624  0.00  0.00           C 0
+ATOM    127   CZ PHE A 712     -15.496   4.972  56.954  0.00  0.00           A 0
+ATOM    120    O PHE A 712     -18.455   7.170  59.761  0.51  7.50           O 0
+ATOM     89   CA GLU A 709     -17.451   2.106  60.078  0.00  0.00           C 0
+ATOM    149   CE LYS A 714     -20.123   7.142  53.182  0.00  0.00           C 0
+ATOM    141    N LYS A 714     -19.869  10.130  56.415  0.00  0.00           N 0
+ATOM    150   NZ LYS A 714     -20.306   5.957  52.300  0.17  7.66           N 0
+ATOM    126  CE2 PHE A 712     -15.866   6.244  56.568  0.00  0.00           A 0
+ATOM    130   CA LYS A 713     -19.503   9.613  58.750  0.00  0.00           C 0
+ATOM    771  OE1 GLN A 787     -17.174   5.490  53.574  0.71  2.14           O 0
+TER
+END

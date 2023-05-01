@@ -1,0 +1,40 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    11:
+HEADER 0  - Pocket Score                      : -0.0309
+HEADER 1  - Drug Score                        : 0.0002
+HEADER 2  - Number of alpha spheres           :    21
+HEADER 3  - Mean alpha-sphere radius          : 3.8845
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.4950
+HEADER 5  - Mean B-factor of pocket residues  : 0.3678
+HEADER 6  - Hydrophobicity Score              : 29.7500
+HEADER 7  - Polarity Score                    :     5
+HEADER 8  - Amino Acid based volume Score     : 4.7500
+HEADER 9  - Pocket volume (Monte Carlo)       : 210.8618
+HEADER 10  -Pocket volume (convex hull)       : 2.5634
+HEADER 11 - Charge Score                      :     0
+HEADER 12 - Local hydrophobic density Score   : 9.0000
+HEADER 13 - Number of apolar alpha sphere     :    10
+HEADER 14 - Proportion of apolar alpha sphere : 0.4762
+ATOM   1429   CB PRO A 848       2.033 -43.353  11.319  0.00  0.00           C 0
+ATOM    941   OH TYR A 801       5.139 -42.448  10.285  0.00  0.00           O 0
+ATOM   1070   OH TYR A 813       0.654 -47.948  10.141  0.00  0.00           O 0
+ATOM   1067  CE1 TYR A 813       0.828 -45.975   8.785  0.00  0.00           A 0
+ATOM   1430   CG PRO A 848       2.781 -42.891  12.596  0.00  0.00           C 0
+ATOM   1440  OE1 GLN A 849       0.186 -46.406  12.397  0.00  0.00           O 0
+ATOM   1065  CD1 TYR A 813       0.904 -45.409   7.522  0.00  0.00           A 0
+ATOM   1021  ND2 ASN A 808       8.353 -46.046   7.757  0.00  0.00           N 0
+ATOM   1026   CA ILE A 809       6.402 -45.892   3.982  0.00  0.00           C 0
+ATOM   1064   CG TYR A 813       0.933 -46.178   6.365  0.00  0.00           A 0
+ATOM   1017    O ASN A 808       7.463 -48.034   5.296  0.00  0.00           O 0
+ATOM   1068  CE2 TYR A 813       0.747 -48.141   7.769  0.00  0.00           A 0
+ATOM   1066  CD2 TYR A 813       0.814 -47.555   6.510  0.00  0.00           A 0
+ATOM   1033    N GLY A 810       4.788 -47.491   3.184  0.27  3.28           N 0
+ATOM   1069   CZ TYR A 813       0.753 -47.352   8.911  0.00  0.00           A 0
+ATOM   1030  CG1 ILE A 809       6.352 -43.551   4.864  0.00  0.00           C 0
+ATOM    939  CE2 TYR A 801       4.892 -40.974   8.479  0.00  0.00           A 0
+ATOM   1116  CH2 TRP A 817       2.582 -41.575   5.413  0.00  0.00           A 0
+TER
+END

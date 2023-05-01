@@ -1,0 +1,38 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket     1:
+HEADER 0  - Pocket Score                      : 0.1035
+HEADER 1  - Drug Score                        : 0.0012
+HEADER 2  - Number of alpha spheres           :    15
+HEADER 3  - Mean alpha-sphere radius          : 3.4792
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.3311
+HEADER 5  - Mean B-factor of pocket residues  : 0.3829
+HEADER 6  - Hydrophobicity Score              : 20.5556
+HEADER 7  - Polarity Score                    :     5
+HEADER 8  - Amino Acid based volume Score     : 4.2222
+HEADER 9  - Pocket volume (Monte Carlo)       : 110.3337
+HEADER 10  -Pocket volume (convex hull)       : 3.8642
+HEADER 11 - Charge Score                      :     0
+HEADER 12 - Local hydrophobic density Score   : 5.0000
+HEADER 13 - Number of apolar alpha sphere     :     6
+HEADER 14 - Proportion of apolar alpha sphere : 0.4000
+ATOM   1335    O ARG A 839      36.133 356.082  23.110  0.56  6.43           O 0
+ATOM   1758   CG MET A 884      36.097 353.379  17.965  0.00  0.00           C 0
+ATOM   1759   SD MET A 884      36.005 354.657  16.706  0.00  0.00           S 0
+ATOM   1713   CD PRO A 880      39.402 357.194  19.353  0.00  0.00           C 0
+ATOM   1905   OG SER A 898      31.311 351.957  21.402  0.70  5.36           O 0
+ATOM   1946   OG SER A 902      36.480 350.642  22.743  0.50  5.36           O 0
+ATOM   1915  OD2 ASP A 899      33.512 353.031  25.904  0.67  1.07           O 0
+ATOM   1860  CE1 TYR A 894      31.601 356.188  18.617  0.00  0.00           A 0
+ATOM   1858  CD1 TYR A 894      30.671 355.765  19.550  0.00  0.00           A 0
+ATOM   1862   CZ TYR A 894      32.287 357.377  18.825  0.00  0.00           A 0
+ATOM   1863   OH TYR A 894      33.209 357.779  17.887  0.88  2.14           O 0
+ATOM   1704   CB VAL A 879      37.197 358.355  16.839  0.00  0.00           C 0
+ATOM   1337   CG ARG A 839      33.623 357.487  23.255  0.00  0.00           C 0
+ATOM   1705  CG1 VAL A 879      36.139 359.378  17.255  0.00  0.00           C 0
+ATOM   1341   CZ ARG A 839      33.252 360.152  21.294  0.00  0.00           C 0
+ATOM   1551  CD1 LEU A 861      37.908 360.632  21.140  0.00  0.00           C 0
+TER
+END

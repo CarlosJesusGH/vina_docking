@@ -1,0 +1,38 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket     8:
+HEADER 0  - Pocket Score                      : 0.1168
+HEADER 1  - Drug Score                        : 0.0020
+HEADER 2  - Number of alpha spheres           :    15
+HEADER 3  - Mean alpha-sphere radius          : 3.7659
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.4436
+HEADER 5  - Mean B-factor of pocket residues  : 0.7385
+HEADER 6  - Hydrophobicity Score              : -6.9000
+HEADER 7  - Polarity Score                    :     9
+HEADER 8  - Amino Acid based volume Score     : 4.6000
+HEADER 9  - Pocket volume (Monte Carlo)       : 198.8354
+HEADER 10  -Pocket volume (convex hull)       : 7.1863
+HEADER 11 - Charge Score                      :     1
+HEADER 12 - Local hydrophobic density Score   : 7.0000
+HEADER 13 - Number of apolar alpha sphere     :     8
+HEADER 14 - Proportion of apolar alpha sphere : 0.5333
+ATOM   1669   CA LYS A 867     -18.793 -63.893  43.304  0.00  0.00           C 0
+ATOM   1634  CD1 LEU A 862     -15.613 -62.940  40.875  0.00  0.00           C 0
+ATOM   1661    O GLU A 866     -16.618 -65.025  44.653  0.69  4.29           O 0
+ATOM   1673   CG LYS A 867     -20.446 -65.451  42.119  0.00  0.00           C 0
+ATOM   1950   CG GLN A 894     -21.869 -66.172  34.456  0.00  0.00           C 0
+ATOM   2574   NZ LYS A 960     -19.284 -69.560  34.658  0.74  5.47           N 0
+ATOM   1936   CB HIS A 893     -16.689 -65.229  35.193  0.00  0.00           C 0
+ATOM   1930  CG2 THR A 892     -20.258 -63.586  37.431  0.00  0.00           C 0
+ATOM   1675   CE LYS A 867     -22.087 -66.895  40.856  0.00  0.00           C 0
+ATOM   2531  OD1 ASP A 956     -24.798 -67.504  37.324  0.63  5.36           O 0
+ATOM   1940  CD2 HIS A 893     -15.607 -65.593  37.526  0.00  0.00           A 0
+ATOM   1942  NE2 HIS A 893     -14.334 -65.407  38.009  0.46  6.56           N 0
+ATOM   1338  NH2 ARG A 832     -13.956 -67.128  43.890  0.00  0.00           N 0
+ATOM   1671    O LYS A 867     -19.151 -62.840  41.199  0.00  0.00           O 0
+ATOM   1297  OE2 GLU A 829     -16.405 -69.314  35.245  0.00  0.00           O 0
+ATOM   2573   CE LYS A 960     -20.581 -70.294  34.408  0.00  0.00           C 0
+TER
+END

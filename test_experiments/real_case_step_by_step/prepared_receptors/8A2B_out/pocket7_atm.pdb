@@ -1,0 +1,43 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket     7:
+HEADER 0  - Pocket Score                      : -0.0188
+HEADER 1  - Drug Score                        : 0.0014
+HEADER 2  - Number of alpha spheres           :    20
+HEADER 3  - Mean alpha-sphere radius          : 4.1462
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.6280
+HEADER 5  - Mean B-factor of pocket residues  : 0.7173
+HEADER 6  - Hydrophobicity Score              : 53.1111
+HEADER 7  - Polarity Score                    :     4
+HEADER 8  - Amino Acid based volume Score     : 5.5556
+HEADER 9  - Pocket volume (Monte Carlo)       : 450.3744
+HEADER 10  -Pocket volume (convex hull)       : 28.4328
+HEADER 11 - Charge Score                      :     2
+HEADER 12 - Local hydrophobic density Score   : 4.0000
+HEADER 13 - Number of apolar alpha sphere     :     5
+HEADER 14 - Proportion of apolar alpha sphere : 0.2500
+ATOM   2237   CB ARG A 948      -4.219 -37.127 -15.377  0.00  0.00           C 0
+ATOM   2240   NE ARG A 948      -2.077 -35.511 -17.021  0.72  3.28           N 0
+ATOM   2246  NH2 ARG A 948      -1.412 -34.860 -19.120  0.00  0.00           N 0
+ATOM   2293   CE MET A 952      -9.569 -35.336 -17.612  0.00  0.00           C 0
+ATOM   2238   CG ARG A 948      -2.746 -37.426 -15.606  0.00  0.00           C 0
+ATOM   2212   SD MET A 945      -5.446 -41.928 -17.268  0.00  0.00           S 0
+ATOM   2242   CZ ARG A 948      -1.164 -35.518 -18.006  0.00  0.00           C 0
+ATOM   2243  NH1 ARG A 948       0.004 -36.132 -17.876  0.00  0.00           N 0
+ATOM   2291   CG MET A 952      -8.906 -32.756 -16.981  0.00  0.00           C 0
+ATOM   2273    O TRP A 951      -5.490 -30.187 -15.591  0.56  2.14           O 0
+ATOM   2095  NH2 ARG A 932      -4.371 -28.780 -17.720  0.44  3.28           N 0
+ATOM   2287   CA MET A 952      -8.086 -30.575 -16.248  0.00  0.00           C 0
+ATOM   2294    N ILE A 953      -8.381 -28.434 -17.430  0.00  0.00           N 0
+ATOM   2300  CG1 ILE A 953      -6.966 -26.735 -19.441  0.00  0.00           C 0
+ATOM   2236    O ARG A 948      -5.978 -34.373 -14.686  0.56  2.14           O 0
+ATOM   2070    O GLY A 930      -0.289 -30.819 -20.650  0.00  0.00           O 0
+ATOM   2091   CZ ARG A 932      -3.147 -29.167 -17.405  0.00  0.00           C 0
+ATOM   2199  CD2 TYR A 944       0.128 -40.454 -15.002  0.00  0.00           A 0
+ATOM   2201  CE2 TYR A 944       0.644 -39.337 -15.651  0.00  0.00           A 0
+ATOM   2173  CD1 ILE A 941      -1.037 -44.358 -16.841  0.00  0.00           C 0
+ATOM   2089   NE ARG A 932      -2.926 -30.081 -16.422  0.00  0.00           N 0
+TER
+END

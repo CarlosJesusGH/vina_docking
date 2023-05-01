@@ -1,0 +1,37 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket     9:
+HEADER 0  - Pocket Score                      : 0.1043
+HEADER 1  - Drug Score                        : 0.0001
+HEADER 2  - Number of alpha spheres           :    17
+HEADER 3  - Mean alpha-sphere radius          : 3.9992
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.6716
+HEADER 5  - Mean B-factor of pocket residues  : 0.3063
+HEADER 6  - Hydrophobicity Score              : 14.0000
+HEADER 7  - Polarity Score                    :     3
+HEADER 8  - Amino Acid based volume Score     : 3.6000
+HEADER 9  - Pocket volume (Monte Carlo)       : 241.1552
+HEADER 10  -Pocket volume (convex hull)       : 2.0658
+HEADER 11 - Charge Score                      :     1
+HEADER 12 - Local hydrophobic density Score   : 1.0000
+HEADER 13 - Number of apolar alpha sphere     :     2
+HEADER 14 - Proportion of apolar alpha sphere : 0.1176
+ATOM   2704   CA ARG A 973     -13.732 -77.386  12.232  0.00  0.00           C 0
+ATOM   2700    O ALA A 972     -12.506 -74.896  11.873  0.00  0.00           O 0
+ATOM   2716  NH2 ARG A 973     -11.008 -80.260  16.589  0.00  0.00           N 0
+ATOM   2712   CZ ARG A 973     -11.728 -80.821  15.621  0.00  0.00           C 0
+ATOM   2710   NE ARG A 973     -12.866 -80.249  15.244  0.57  2.19           N 0
+ATOM   2708   CG ARG A 973     -13.488 -79.858  12.931  0.00  0.00           C 0
+ATOM   1165  OD1 ASN A 816      -9.717 -71.758  14.338  0.00  0.00           O 0
+ATOM   2701   CB ALA A 972     -12.879 -73.263  14.363  0.00  0.00           C 0
+ATOM   1199  CG2 VAL A 819     -12.422 -71.550  18.518  0.00  0.00           C 0
+ATOM   2672   OG SER A 969     -12.593 -76.861  18.995  0.00  0.00           O 0
+ATOM   1198  CG1 VAL A 819     -10.748 -72.061  20.328  0.00  0.00           C 0
+ATOM   2670    O SER A 969     -14.058 -76.433  16.205  0.45  1.07           O 0
+ATOM   2702    N ARG A 973     -14.067 -76.142  12.901  0.00  0.00           N 0
+ATOM   2699    C ALA A 972     -13.447 -74.996  12.664  0.00  0.00           C 0
+ATOM   2668   CA SER A 969     -14.005 -75.071  18.183  0.00  0.00           C 0
+TER
+END

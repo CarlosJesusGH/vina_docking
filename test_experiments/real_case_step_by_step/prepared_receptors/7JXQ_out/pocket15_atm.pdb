@@ -1,0 +1,34 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    15:
+HEADER 0  - Pocket Score                      : -0.0773
+HEADER 1  - Drug Score                        : 0.0009
+HEADER 2  - Number of alpha spheres           :    15
+HEADER 3  - Mean alpha-sphere radius          : 3.9267
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.5311
+HEADER 5  - Mean B-factor of pocket residues  : 0.5145
+HEADER 6  - Hydrophobicity Score              : 39.1667
+HEADER 7  - Polarity Score                    :     2
+HEADER 8  - Amino Acid based volume Score     : 4.0000
+HEADER 9  - Pocket volume (Monte Carlo)       : 176.6984
+HEADER 10  -Pocket volume (convex hull)       : 1.7210
+HEADER 11 - Charge Score                      :     0
+HEADER 12 - Local hydrophobic density Score   : 12.0000
+HEADER 13 - Number of apolar alpha sphere     :    13
+HEADER 14 - Proportion of apolar alpha sphere : 0.8667
+ATOM   2212  CG2 ILE A 938      52.686 -30.169 -22.121  0.00  0.00           C 0
+ATOM   2204   CD PRO A 937      51.636 -28.667 -27.688  0.00  0.00           C 0
+ATOM   2203   CG PRO A 937      52.832 -27.797 -27.500  0.00  0.00           C 0
+ATOM   2202   CB PRO A 937      53.789 -28.532 -26.627  0.00  0.00           C 0
+ATOM   1938    O MET A 908      48.389 -30.023 -23.328  0.44  3.21           O 0
+ATOM   1975   OG SER A 912      45.704 -24.398 -26.717  0.00  0.00           O 0
+ATOM   1947    O THR A 909      46.641 -25.854 -23.672  0.53  7.50           O 0
+ATOM   1948   CB THR A 909      46.179 -27.707 -25.831  0.00  0.00           C 0
+ATOM   1951  CG2 THR A 909      46.656 -28.662 -26.925  0.00  0.00           C 0
+ATOM   1945   CA THR A 909      46.804 -28.086 -24.484  0.00  0.00           C 0
+ATOM   1960  CD2 PHE A 910      48.900 -26.994 -20.754  0.00  0.00           A 0
+ATOM   1962  CE2 PHE A 910      49.862 -27.832 -20.242  0.00  0.00           A 0
+TER
+END

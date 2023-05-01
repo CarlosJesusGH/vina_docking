@@ -1,0 +1,38 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket     5:
+HEADER 0  - Pocket Score                      : -0.0086
+HEADER 1  - Drug Score                        : 0.0003
+HEADER 2  - Number of alpha spheres           :    18
+HEADER 3  - Mean alpha-sphere radius          : 3.9198
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.6469
+HEADER 5  - Mean B-factor of pocket residues  : 0.4908
+HEADER 6  - Hydrophobicity Score              : 42.5000
+HEADER 7  - Polarity Score                    :     3
+HEADER 8  - Amino Acid based volume Score     : 4.8333
+HEADER 9  - Pocket volume (Monte Carlo)       : 166.5562
+HEADER 10  -Pocket volume (convex hull)       : 2.3913
+HEADER 11 - Charge Score                      :     0
+HEADER 12 - Local hydrophobic density Score   : 5.0000
+HEADER 13 - Number of apolar alpha sphere     :     6
+HEADER 14 - Proportion of apolar alpha sphere : 0.3333
+ATOM    110    O GLU A 711      -7.832 -16.880  39.882  0.56  2.14           O 0
+ATOM    316  CD1 ILE A 732     -11.621 -17.837  44.051  0.00  0.00           C 0
+ATOM    314  CG1 ILE A 732     -11.613 -16.721  42.994  0.00  0.00           C 0
+ATOM    287    O LEU A 730     -10.648 -18.325  37.240  0.79  1.07           O 0
+ATOM    308    N ILE A 732     -10.218 -15.499  40.637  0.00  0.00           N 0
+ATOM    290  CD1 LEU A 730     -13.921 -17.822  39.592  0.00  0.00           C 0
+ATOM    134   CG LYS A 713     -10.621 -22.546  37.486  0.00  0.00           C 0
+ATOM    101    O THR A 710      -5.299 -19.625  41.712  0.00  0.00           O 0
+ATOM    135   CD LYS A 713     -11.017 -23.825  38.232  0.00  0.00           C 0
+ATOM    133   CB LYS A 713      -9.226 -22.697  37.038  0.00  0.00           C 0
+ATOM    120    O PHE A 712      -6.630 -20.695  37.517  0.77  2.14           O 0
+ATOM    116    N PHE A 712      -6.511 -18.252  38.709  0.00  0.00           N 0
+ATOM    109    C GLU A 711      -6.705 -17.433  39.712  0.00  0.00           C 0
+ATOM    119    C PHE A 712      -7.601 -19.918  37.275  0.00  0.00           C 0
+ATOM    118   CA PHE A 712      -7.585 -18.485  37.719  0.00  0.00           C 0
+ATOM    288   CB LEU A 730     -13.571 -19.267  37.664  0.00  0.00           C 0
+TER
+END

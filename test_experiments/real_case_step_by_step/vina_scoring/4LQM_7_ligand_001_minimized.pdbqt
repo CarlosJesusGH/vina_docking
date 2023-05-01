@@ -1,0 +1,15 @@
+REMARK SMILES NN
+REMARK SMILES IDX 1 1 2 4
+REMARK H PARENT 1 2 1 3 2 5 2 6
+REMARK Flexibility Score: inf
+ROOT
+ATOM      1  N   UNL     1     -65.785   2.745 -27.016  1.00  0.00    -0.274 NA
+ATOM      2  H   UNL     1     -64.937   3.273 -26.857  1.00  0.00     0.137 HD
+ATOM      3  H   UNL     1     -66.502   3.118 -27.615  1.00  0.00     0.137 HD
+ENDROOT
+BRANCH   1   4
+ATOM      4  N   UNL     1     -65.782   1.412 -26.738  1.00  0.00    -0.274 NA
+ATOM      5  H   UNL     1     -66.393   0.871 -27.404  1.00  0.00     0.137 HD
+ATOM      6  H   UNL     1     -66.242   1.286 -25.791  1.00  0.00     0.137 HD
+ENDBRANCH   1   4
+TORSDOF 1

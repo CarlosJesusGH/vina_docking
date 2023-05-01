@@ -1,0 +1,63 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket     1:
+HEADER 0  - Pocket Score                      : 0.4787
+HEADER 1  - Drug Score                        : 0.4147
+HEADER 2  - Number of alpha spheres           :    48
+HEADER 3  - Mean alpha-sphere radius          : 3.8855
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.5700
+HEADER 5  - Mean B-factor of pocket residues  : 0.7941
+HEADER 6  - Hydrophobicity Score              : 25.1250
+HEADER 7  - Polarity Score                    :     6
+HEADER 8  - Amino Acid based volume Score     : 3.3750
+HEADER 9  - Pocket volume (Monte Carlo)       : 522.0845
+HEADER 10  -Pocket volume (convex hull)       : 106.3040
+HEADER 11 - Charge Score                      :    -2
+HEADER 12 - Local hydrophobic density Score   : 15.3333
+HEADER 13 - Number of apolar alpha sphere     :    21
+HEADER 14 - Proportion of apolar alpha sphere : 0.4375
+ATOM    251   CA GLY A 719      -0.049 -44.388  20.150  0.00  0.00           C 0
+ATOM    304   CB VAL A 726       1.628 -47.675  23.558  0.00  0.00           C 0
+ATOM    244    O LEU A 718       0.333 -46.091  18.034  0.48  6.43           O 0
+ATOM    243    C LEU A 718       1.267 -45.909  18.819  0.00  0.00           C 0
+ATOM    252    C GLY A 719       0.055 -43.579  21.420  0.00  0.00           C 0
+ATOM    254    N SER A 720      -0.564 -42.406  21.431  0.00  0.00           N 0
+ATOM    258    O SER A 720      -2.815 -40.973  22.260  0.00  0.00           O 0
+ATOM    257    C SER A 720      -1.921 -41.235  23.067  0.00  0.00           C 0
+ATOM    285    N GLY A 724      -0.686 -41.046  28.687  0.59  2.19           N 0
+ATOM    486   CE LYS A 745      -0.842 -48.641  29.992  0.00  0.00           C 0
+ATOM    289    O GLY A 724      -0.142 -41.514  26.035  0.00  0.00           O 0
+ATOM    288    C GLY A 724       0.692 -41.902  26.854  0.00  0.00           C 0
+ATOM    249    N GLY A 719       1.177 -45.093  19.860  0.00  0.00           N 0
+ATOM    495    O GLU A 746       2.765 -43.485  29.500  0.82  2.14           O 0
+ATOM    277    O PHE A 723      -0.152 -41.182  30.859  0.00  0.00           O 0
+ATOM    287   CA GLY A 724       0.648 -41.445  28.295  0.00  0.00           C 0
+ATOM    245   CB LEU A 718       2.497 -48.006  19.287  0.00  0.00           C 0
+ATOM    262    N GLY A 721      -2.120 -41.315  24.384  0.57  4.37           N 0
+ATOM    253    O GLY A 719       0.686 -44.009  22.389  0.00  0.00           O 0
+ATOM    484   CG LYS A 745       1.204 -48.067  28.762  0.00  0.00           C 0
+ATOM    290    N THR A 725       1.678 -42.751  26.577  0.60  1.09           N 0
+ATOM    306  CG2 VAL A 726       0.513 -47.675  24.567  0.00  0.00           C 0
+ATOM    620    N ILE A 759      -1.686 -47.459  37.060  0.87  1.09           N 0
+ATOM    622   CA ILE A 759      -0.799 -48.209  36.181  0.00  0.00           C 0
+ATOM    655  OE1 GLU A 762      -2.975 -50.251  32.705  0.00  0.00           O 0
+ATOM    625   CB ILE A 759       0.189 -47.266  35.470  0.00  0.00           C 0
+ATOM    294    O THR A 725       2.988 -45.088  26.264  0.00  0.00           O 0
+ATOM    618  OE1 GLU A 758      -6.520 -45.087  36.141  0.00  0.00           O 0
+ATOM    615   CB GLU A 758      -4.615 -46.367  37.571  0.00  0.00           C 0
+ATOM   1587   CA GLY A 857      -6.855 -51.558  33.782  0.00  0.00           C 0
+ATOM    509  CD2 LEU A 747       0.042 -43.092  33.230  0.00  0.00           C 0
+ATOM    584    O ALA A 755      -1.576 -44.533  37.643  0.53  1.07           O 0
+ATOM    281  CD2 PHE A 723      -5.222 -41.664  32.532  0.00  0.00           A 0
+ATOM    487   NZ LYS A 745      -2.148 -49.334  29.923  0.60  7.66           N 0
+ATOM    278   CB PHE A 723      -3.129 -41.387  31.148  0.00  0.00           C 0
+ATOM    626  CG1 ILE A 759       0.965 -48.035  34.403  0.00  0.00           C 0
+ATOM    628  CD1 ILE A 759       1.897 -47.171  33.596  0.00  0.00           C 0
+ATOM    613    C GLU A 758      -2.767 -48.058  37.562  0.00  0.00           C 0
+ATOM    485   CD LYS A 745      -0.047 -48.874  28.745  0.00  0.00           C 0
+ATOM   1589    O GLY A 857      -8.244 -50.679  35.502  0.36  8.57           O 0
+ATOM    614    O GLU A 758      -3.029 -49.244  37.320  0.66  1.07           O 0
+TER
+END

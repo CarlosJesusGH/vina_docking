@@ -1,0 +1,36 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    16:
+HEADER 0  - Pocket Score                      : 0.0447
+HEADER 1  - Drug Score                        : 0.0060
+HEADER 2  - Number of alpha spheres           :    17
+HEADER 3  - Mean alpha-sphere radius          : 3.9950
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.5709
+HEADER 5  - Mean B-factor of pocket residues  : 0.5116
+HEADER 6  - Hydrophobicity Score              : 20.7778
+HEADER 7  - Polarity Score                    :     6
+HEADER 8  - Amino Acid based volume Score     : 5.3333
+HEADER 9  - Pocket volume (Monte Carlo)       : 232.7131
+HEADER 10  -Pocket volume (convex hull)       : 4.2987
+HEADER 11 - Charge Score                      :     0
+HEADER 12 - Local hydrophobic density Score   : 11.0000
+HEADER 13 - Number of apolar alpha sphere     :    12
+HEADER 14 - Proportion of apolar alpha sphere : 0.7059
+ATOM   2147    N TYR A 915     -24.506 -50.417  18.729  0.51  2.19           N 0
+ATOM   2131    O LYS A 913     -22.015 -50.328  16.225  0.17  6.43           O 0
+ATOM   2064  CH2 TRP A 905     -22.776 -53.966  15.358  0.00  0.00           A 0
+ATOM   2161    N ASP A 916     -24.511 -48.038  17.236  0.00  0.00           N 0
+ATOM   2327   CG PRO A 934     -27.708 -55.320  14.397  0.00  0.00           C 0
+ATOM   2295  OE2 GLU A 931     -32.325 -51.575  19.087  0.33  4.29           O 0
+ATOM   2154  CD1 TYR A 915     -27.069 -51.370  21.163  0.00  0.00           A 0
+ATOM   2149   CA TYR A 915     -25.500 -49.376  18.991  0.00  0.00           C 0
+ATOM   2183  CD1 ILE A 918     -29.139 -47.872  19.667  0.00  0.00           C 0
+ATOM   2321  CD2 LEU A 933     -25.092 -54.113  19.176  0.00  0.00           C 0
+ATOM   2328   CD PRO A 934     -27.510 -55.297  15.876  0.00  0.00           C 0
+ATOM   2315   CA LEU A 933     -27.386 -56.255  18.654  0.00  0.00           C 0
+ATOM   2300    O ARG A 932     -30.047 -55.753  19.072  0.58  5.36           O 0
+ATOM   2062  CZ2 TRP A 905     -23.681 -54.968  15.139  0.00  0.00           A 0
+TER
+END

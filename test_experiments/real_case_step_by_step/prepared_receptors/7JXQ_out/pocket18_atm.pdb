@@ -1,0 +1,51 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    18:
+HEADER 0  - Pocket Score                      : -0.1203
+HEADER 1  - Drug Score                        : 0.0002
+HEADER 2  - Number of alpha spheres           :    39
+HEADER 3  - Mean alpha-sphere radius          : 3.8916
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.5129
+HEADER 5  - Mean B-factor of pocket residues  : 0.5874
+HEADER 6  - Hydrophobicity Score              : 23.8182
+HEADER 7  - Polarity Score                    :     9
+HEADER 8  - Amino Acid based volume Score     : 5.0000
+HEADER 9  - Pocket volume (Monte Carlo)       : 402.0155
+HEADER 10  -Pocket volume (convex hull)       : 31.3552
+HEADER 11 - Charge Score                      :     1
+HEADER 12 - Local hydrophobic density Score   : 13.0000
+HEADER 13 - Number of apolar alpha sphere     :    14
+HEADER 14 - Proportion of apolar alpha sphere : 0.3590
+ATOM   2730   CB HIS A 988      49.948 -29.857  -5.944  0.00  0.00           C 0
+ATOM   1040    O ASN A 808      49.486 -27.298 -11.146  0.54  6.43           O 0
+ATOM    964   OH TYR A 801      42.659 -27.310  -9.321  0.00  0.00           O 0
+ATOM   1044  ND2 ASN A 808      49.559 -24.428  -8.640  0.00  0.00           N 0
+ATOM   1091  CE2 TYR A 813      46.876 -32.736  -8.462  0.00  0.00           A 0
+ATOM   2729    O HIS A 988      49.898 -32.250  -7.958  0.59  3.21           O 0
+ATOM   1092   CZ TYR A 813      45.633 -32.756  -7.850  0.00  0.00           A 0
+ATOM   1089  CD2 TYR A 813      46.966 -32.927  -9.833  0.00  0.00           A 0
+ATOM   1008  ND1 HIS A 805      44.610 -23.684 -10.408  0.46  7.66           N 0
+ATOM   1011  CE1 HIS A 805      43.594 -23.301  -9.655  0.00  0.00           A 0
+ATOM   1090  CE1 TYR A 813      44.487 -32.966  -8.608  0.00  0.00           A 0
+ATOM   1088  CD1 TYR A 813      44.595 -33.158  -9.983  0.00  0.00           A 0
+ATOM   1093   OH TYR A 813      45.549 -32.566  -6.482  0.29  5.36           O 0
+ATOM   2732  ND1 HIS A 988      48.139 -30.994  -4.580  0.00  0.00           N 0
+ATOM   1453   CG PRO A 848      40.971 -29.234  -6.819  0.00  0.00           C 0
+ATOM   1452   CB PRO A 848      41.640 -30.316  -7.637  0.00  0.00           C 0
+ATOM   1053  CG1 ILE A 809      46.484 -27.763 -13.812  0.00  0.00           C 0
+ATOM   1006   CB HIS A 805      45.060 -24.454 -12.770  0.00  0.00           C 0
+ATOM   2830   OH TYR A 998      40.909 -27.919  -3.169  0.00  0.00           O 0
+ATOM   2785  OD1 ASP A 994      44.928 -30.711   0.357  0.57  7.50           O 0
+ATOM   2736  NE2 HIS A 988      48.703 -30.555  -2.558  0.00  0.00           N 0
+ATOM   2735  CE1 HIS A 988      47.807 -31.169  -3.312  0.00  0.00           A 0
+ATOM   1464  NE2 GLN A 849      42.923 -32.670  -4.977  0.37  8.75           N 0
+ATOM   1087   CG TYR A 813      45.838 -33.136 -10.615  0.00  0.00           A 0
+ATOM    962  CE2 TYR A 801      42.235 -27.534 -11.667  0.00  0.00           A 0
+ATOM   1139  CH2 TRP A 817      43.203 -30.711 -13.682  0.00  0.00           A 0
+ATOM   1049   CA ILE A 809      48.823 -28.614 -13.472  0.00  0.00           C 0
+ATOM   1137  CZ2 TRP A 817      42.536 -31.424 -12.723  0.00  0.00           A 0
+ATOM   2828  CE2 TYR A 998      41.242 -30.077  -2.247  0.00  0.00           A 0
+TER
+END
