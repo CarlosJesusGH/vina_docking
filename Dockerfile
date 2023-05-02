@@ -6,7 +6,7 @@ MAINTAINER Carlos Garcia-Hernandez carlos.garcia2@bsc.es
 
 ENV HOME_DIR=/home
 ENV JOVYAN_DIR=${HOME_DIR}/jovyan
-ENV REPO_DIR=${HOME_DIR}/vina_docking
+ENV REPO_DIR=${JOVYAN_DIR}/vina_docking
 ENV SETUP_DIR=${REPO_DIR}/setup_dir
 
 # -----------------------------------------------------------------------
@@ -18,9 +18,9 @@ RUN apt -yq update && apt -yq upgrade
 RUN apt install -yq git
 WORKDIR ${HOME_DIR}
 # TODO: change ADD for CLONE in the end
-ADD . /home/vina_docking
+ADD . ${JOVYAN_DIR}
 # RUN git clone https://github.com/CarlosJesusGH/vina_docking.git
-RUN ls /home/vina_docking
+RUN ls ${JOVYAN_DIR}
 
 
 # -----------------------------------------------------------------------
@@ -94,6 +94,10 @@ RUN conda install -y -c conda-forge py3dmol mdanalysis fpocket
 # prolif
  
 # -----------------------------------------------------------------------
+# DELETE UNNECESSARY FILES AND DIRS
+RUN rm -rf ${REPO_DIR}/setup_dir
+RUN rm -f ${REPO_DIR}/DocerfileAux.docker
+
 # -----------------------------------------------------------------------
 # STARTUP CONFIG - from: https://hub.docker.com/r/jupyter/base-notebook/dockerfile
 
@@ -114,5 +118,5 @@ WORKDIR $HOME
 # Switch back to jovyan to avoid accidental container runs as root
 USER $NB_UID
 
-# after any change do:
+# after any change, re-build and push new image to dockerhub:
 # dockerbuild && dockerpush
