@@ -18,9 +18,9 @@ RUN apt -yq update && apt -yq upgrade
 RUN apt install -yq git
 WORKDIR ${HOME_DIR}
 # TODO: change ADD for CLONE in the end
-ADD . ${JOVYAN_DIR}
+ADD . ${REPO_DIR}
 # RUN git clone https://github.com/CarlosJesusGH/vina_docking.git
-RUN ls ${JOVYAN_DIR}
+RUN ls ${REPO_DIR}
 
 
 # -----------------------------------------------------------------------
