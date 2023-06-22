@@ -120,6 +120,7 @@ WORKDIR ${HOME_DIR}
 
 # Fix permissions on HOME_DIR
 RUN chmod -R 777 ${HOME_DIR}
+# ...
 
 USER $NB_UID
 
