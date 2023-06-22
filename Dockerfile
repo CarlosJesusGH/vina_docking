@@ -109,13 +109,18 @@ CMD ["start-notebook.sh", "--NotebookApp.token=''", "--NotebookApp.password=''",
 
 # SET EVERYTHING AS DEFAULT IMAGE
 # WORKDIR ${JOVYAN_DIR}
-WORKDIR $HOME
+WORKDIR ${HOME_DIR}
 # Fix DL4006
 # SHELL ["/bin/bash", "-o", "pipefail", "-c"]
+
 # Fix permissions on /etc/jupyter as root
 # USER root
 # RUN fix-permissions /etc/jupyter/
 # Switch back to jovyan to avoid accidental container runs as root
+
+# Fix permissions on HOME_DIR
+RUN chmod 777 ${HOME_DIR}
+
 USER $NB_UID
 
 # after any change, re-build and push new image to dockerhub:
