@@ -42,7 +42,8 @@ def translate_ligand_from_meekoprep(meeko_prep, new_center):
 #     pass
 
 def translate_ligand_from_pdbqt(pdbqt_path, new_center, verbose=True):
-    lig = parse_molecules.MolFromPDBQTBlock(block=open(pdbqt_path,'r').read(),sanitize=True,removeHs=False)
+    # lig = parse_molecules.MolFromPDBQTBlock(block=open(pdbqt_path,'r').read(),sanitize=True,removeHs=False)
+    lig = parse_molecules.MolFromPDBQTBlock(block=pdbqt_path,sanitize=True,removeHs=False)
     protonated_lig = rdkit.Chem.AddHs(lig)
     # generate 3D coordinates for the ligand
     rdkit.Chem.AllChem.EmbedMolecule(protonated_lig)
