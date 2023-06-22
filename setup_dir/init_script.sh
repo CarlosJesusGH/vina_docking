@@ -8,9 +8,11 @@ git_repo="https://github.com/CarlosJesusGH/vina_docking.git"
 DIR="/home/jovyan/vina_docking/"
 if [ -d "$DIR" ]; then
 ### Take action if $DIR exists ###
-cd $DIR
-git reset --hard origin/master
-git pull
+# cd $DIR
+# git reset --hard origin/master
+# git pull
+rm -rf $DIR
+git clone $git_repo
 else
 ###  Control will jump here if $DIR does NOT exists ###
 git clone $git_repo
