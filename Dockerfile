@@ -108,8 +108,8 @@ ENTRYPOINT ["tini", "-g", "--"]
 CMD ["start-notebook.sh", "--NotebookApp.token=''", "--NotebookApp.password=''", "--NotebookApp.allow_origin='*'"]
 
 # SET EVERYTHING AS DEFAULT IMAGE
-# WORKDIR ${JOVYAN_DIR}
-WORKDIR ${HOME_DIR}
+WORKDIR ${JOVYAN_DIR}
+# WORKDIR ${HOME_DIR}
 # Fix DL4006
 # SHELL ["/bin/bash", "-o", "pipefail", "-c"]
 
