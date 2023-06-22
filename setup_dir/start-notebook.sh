@@ -6,6 +6,8 @@
 # -x Print commands and their arguments as they are executed.
 set -e
 
+exec /home/jovyan/vina_docking/setup_dir/init_script.sh
+
 # from: https://github.com/jupyter/notebook/issues/3704
 # source ~/.bashrc
 PATH="/ADFRsuite/bin:$PATH"

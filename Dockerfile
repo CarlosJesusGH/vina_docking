@@ -95,7 +95,7 @@ RUN conda install -y -c conda-forge py3dmol mdanalysis fpocket
  
 # -----------------------------------------------------------------------
 # DELETE UNNECESSARY FILES AND DIRS
-RUN rm -rf ${REPO_DIR}/setup_dir
+# RUN rm -rf ${REPO_DIR}/setup_dir
 RUN rm -f ${REPO_DIR}/DocerfileAux.docker
 
 # -----------------------------------------------------------------------
