@@ -42,6 +42,7 @@ def MolFromPDBQTBlock(block, sanitize=True, removeHs=True):
 # from: https://github.com/oddt/oddt
 # file: https://github.com/oddt/oddt/blob/a3ff8b84b3abf986ad5bdbfebc9ef96cb8a84d8c/oddt/toolkits/extras/rdkit/__init__.py#L353
 def MolFromPDBQTBlock_OLD(block, sanitize=True, removeHs=True):
+    # this implementation is having problems with ATOM G used in vina
     """Read PDBQT block to a RDKit Molecule
     Parameters
     ----------
