@@ -6,7 +6,10 @@
 # -x Print commands and their arguments as they are executed.
 set -e
 
-exec /home/jovyan/vina_docking/setup_dir/init_script.sh
+# exec /home/jovyan/vina_docking/setup_dir/init_script.sh
+#bash /home/jovyan/vina_docking/setup_dir/init_script.sh
+rm -rf /home/jovyan/vina_docking/
+git clone https://github.com/CarlosJesusGH/vina_docking.git
 
 # from: https://github.com/jupyter/notebook/issues/3704
 # source ~/.bashrc
