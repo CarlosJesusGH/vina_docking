@@ -1,0 +1,38 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket     6:
+HEADER 0  - Pocket Score                      : -0.0280
+HEADER 1  - Drug Score                        : 0.0020
+HEADER 2  - Number of alpha spheres           :    21
+HEADER 3  - Mean alpha-sphere radius          : 4.0059
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.5722
+HEADER 5  - Mean B-factor of pocket residues  : 0.4904
+HEADER 6  - Hydrophobicity Score              : 83.5000
+HEADER 7  - Polarity Score                    :     1
+HEADER 8  - Amino Acid based volume Score     : 5.7500
+HEADER 9  - Pocket volume (Monte Carlo)       : 181.0574
+HEADER 10  -Pocket volume (convex hull)       : 2.0651
+HEADER 11 - Charge Score                      :     0
+HEADER 12 - Local hydrophobic density Score   : 20.0000
+HEADER 13 - Number of apolar alpha sphere     :    21
+HEADER 14 - Proportion of apolar alpha sphere : 1.0000
+ATOM   2718  CD1 TYR A 998     -50.325  11.820 -68.650  0.00  0.00           A 0
+ATOM   2713   CA TYR A 998     -50.594   9.726 -71.162  0.00  0.00           C 0
+ATOM   2707  CD2 PHE A 997     -54.862  12.042 -73.867  0.00  0.00           A 0
+ATOM   2753   CB LEU A1001     -48.567  12.697 -74.855  0.00  0.00           C 0
+ATOM   2755  CD1 LEU A1001     -50.181  14.161 -76.062  0.00  0.00           C 0
+ATOM   2703    O PHE A 997     -51.148   9.873 -73.866  0.46  6.43           O 0
+ATOM   2721  CE2 TYR A 998     -52.973  12.080 -67.988  0.00  0.00           A 0
+ATOM   2722   CZ TYR A 998     -52.088  13.080 -67.693  0.00  0.00           A 0
+ATOM   2723   OH TYR A 998     -52.535  14.207 -67.063  0.00  0.00           O 0
+ATOM   2709  CE2 PHE A 997     -54.955  13.120 -74.721  0.00  0.00           A 0
+ATOM   2764   SD MET A1002     -47.172  14.147 -69.936  0.00  0.00           S 0
+ATOM   2720  CE1 TYR A 998     -50.766  12.960 -68.021  0.00  0.00           A 0
+ATOM   2756  CD2 LEU A1001     -48.142  15.150 -75.000  0.00  0.00           C 0
+ATOM   2763   CG MET A1002     -46.686  13.388 -71.480  0.00  0.00           C 0
+ATOM   2719  CD2 TYR A 998     -52.524  10.945 -68.618  0.00  0.00           A 0
+ATOM   2717   CG TYR A 998     -51.196  10.796 -68.957  0.00  0.00           A 0
+TER
+END

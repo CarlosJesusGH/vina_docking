@@ -30,7 +30,7 @@ def show_3d_receptor(receptor_path, receptor_name, size=(800, 600),
                      show_pockets=False, pockets_opacity=0.5, 
                      show_drug_score=False,
                      show_surface=False, surface_opacity=0.5,
-                    pocket_paths=None, pockets_data=None):
+                    pocket_paths=None, pockets_data=None, pocket_id=None):
     view = py3Dmol.view(width=size[0], height=size[1])
     view.setViewStyle({'style':'outline','color':'black','width':0.1})
     view.addModel(open(receptor_path,'r').read(),'pdb')
@@ -39,7 +39,9 @@ def show_3d_receptor(receptor_path, receptor_name, size=(800, 600),
     if show_surface:
         view.addSurface(py3Dmol.VDW,{'opacity':surface_opacity,'color':'white'})
     if show_pockets:
-        for cav_id, pocket_path in enumerate(pocket_paths, start=1):    
+        if pocket_id is not None:
+            cav_id = int(pocket_id.split("_")[-1]) 
+            pocket_path = pocket_paths[cav_id-1]
             drug_score = pockets_data["drug_score"].loc[cav_id]
             # Color from red to yellow according to drug_score (red-ish is better)
             color = ["#%02x%02x%02x" % (255, int(255*(1-drug_score)), 0)]
@@ -47,24 +49,40 @@ def show_3d_receptor(receptor_path, receptor_name, size=(800, 600),
             x = view.getModel()
             x.setStyle({},{'sphere':{'color':color[0],'opacity':pockets_opacity}})
             if show_drug_score:
-                view.addLabel(str(drug_score), {'fontColor': color[0], 'position': {'x': 0, 'y': 0, 'z': 0}, 'backgroundColor': 'black', 'opacity': 0.7}, {'model': cav_id})
+                view.addLabel(str(drug_score) + ' (' + str(cav_id) + ')', {'fontColor': color[0], 'position': {'x': 0, 'y': 0, 'z': 0}, 'backgroundColor': 'black', 'opacity': 0.7}, {'model': cav_id})
+        else:
+            for cav_id, pocket_path in enumerate(pocket_paths, start=1):    
+                drug_score = pockets_data["drug_score"].loc[cav_id]
+                # Color from red to yellow according to drug_score (red-ish is better)
+                color = ["#%02x%02x%02x" % (255, int(255*(1-drug_score)), 0)]
+                view.addModel(open(pocket_path, 'r').read(), 'pqr')
+                x = view.getModel()
+                x.setStyle({},{'sphere':{'color':color[0],'opacity':pockets_opacity}})
+                if show_drug_score:
+                    view.addLabel(str(drug_score) + ' (' + str(cav_id) + ')', {'fontColor': color[0], 'position': {'x': 0, 'y': 0, 'z': 0}, 'backgroundColor': 'black', 'opacity': 0.7}, {'model': cav_id})
     view.zoomTo()
     return view
     
     
 def show_3d_vina_score_dock(receptor_path, receptor_name, show_pockets, show_drug_score, show_surface, 
                             show_vina_box, ligand_style, rdkitmol_list, pocket_paths, pockets_data, scoring_row, 
-                            show_only_best_pose):
+                            show_only_best_pose, pocket_id=None):
+    
+    
+    pockets_opacity = 1 if show_vina_box else 0.5
+    
     # Add the receptor
     view = show_3d_receptor(receptor_path, receptor_name, 
                             show_pockets=show_pockets, show_drug_score=show_drug_score, show_surface=show_surface, 
-                            pocket_paths=pocket_paths, pockets_data=pockets_data)
+                            pocket_paths=pocket_paths, pockets_data=pockets_data,
+                            pocket_id=pocket_id,
+                            pockets_opacity=pockets_opacity)
     
     # Add the box
     if show_vina_box:
         center = ast.literal_eval(scoring_row['pocket_box_center'])
         size = ast.literal_eval(scoring_row['vina_box_size'])
-        view.addBox({"center":{"x":center[0],"y":center[1],"z":center[2]},"dimensions":{"w":size[0],"h":size[1],"d":size[2]},"color":'red','opacity':0.3});
+        view.addBox({"center":{"x":center[0],"y":center[1],"z":center[2]},"dimensions":{"w":size[0],"h":size[1],"d":size[2]},"color":'green','opacity':0.3});
     
     # Add the ligands
     for i, mol in enumerate(rdkitmol_list):

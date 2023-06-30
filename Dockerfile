@@ -90,7 +90,7 @@ RUN pip install meeko
 # -----------------------------------------------------------------------
 # TOOLS TO VISUALIZE MOLECULES
 RUN conda install -y -c conda-forge -c schrodinger pymol-bundle
-RUN conda install -y -c conda-forge py3dmol mdanalysis fpocket
+RUN conda install -y -c conda-forge py3dmol mdanalysis fpocket pdbfixer
 # prolif
  
 # -----------------------------------------------------------------------
