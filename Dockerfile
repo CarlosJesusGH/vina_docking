@@ -1,5 +1,6 @@
 FROM jupyter/minimal-notebook:python-3.7
-MAINTAINER Carlos Garcia-Hernandez carlos.garcia2@bsc.es
+# MAINTAINER Carlos Garcia-Hernandez carlos.garcia2@bsc.es  # deprecated
+LABEL maintainer="Carlos Garcia-Hernandez carlos.garcia2@bsc.es"
 
 # -----------------------------------------------------------------------
 # VARIABLE DECLARATION
@@ -125,3 +126,8 @@ USER $NB_UID
 
 # after any change, re-build and push new image to dockerhub:
 # dockerbuild && dockerpush
+
+# to run the image
+# docker run -it --rm -p 8888:8888 -v /home/bscuser/vina_experiments:/home/jovyan/vina_experiments carlosjesusgh/vina_docking:latest
+# to run the image with a password
+# docker run -it --rm -p 8888:8888 -v /home/bscuser/vina_experiments:/home/jovyan/vina_experiments carlosjesusgh/vina_docking:latest start-notebook.sh --NotebookApp.token='PASSWORD' --NotebookApp.password='' --NotebookApp.allow_origin='*'
